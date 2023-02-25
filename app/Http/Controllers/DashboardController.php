@@ -9,13 +9,9 @@ use Response;
 // use Auth;
 // use File;
 
-class AdminController extends Controller
+class DashboardController extends Controller
 {
 
-    // Controller untuk dashboard admin
-
-    public function dashboard(){
-
-        return view('admin.dashboard');
-    }
+    // Controller untuk dashboard non admin
+    
 }

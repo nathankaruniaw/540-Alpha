@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 
-    <title>Dashboard Admin Prosera</title>
+    <title>Login</title>
 
-	@include('layouts.header')
+	@include('admin.admin_layouts.header')
 
 </head>
 
@@ -13,8 +13,8 @@
 	<!-- Main navbar -->
 	<div class="navbar navbar-inverse bg-indigo" style="background-color: #E0D5BB;">
 		<div class="navbar-header">
-            {{-- Logo --}}
-			<a class="navbar-brand" href="index.html"><img src="/dashboardAssets/logo/odoroki.png" alt=""></a>
+			<!-- Logo -->
+			<!-- <a class="navbar-brand" href="index.html"><img src="/dashboardAssets/logo/odoroki.png" alt=""></a> -->
 		</div>
 	</div>
 	<!-- /main navbar -->

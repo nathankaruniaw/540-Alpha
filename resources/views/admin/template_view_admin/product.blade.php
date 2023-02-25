@@ -1,4 +1,4 @@
-@extends('layouts.navbar')
+@extends('admin.admin_layouts.navbar')
 
 @section('title', 'Product')
 

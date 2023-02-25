@@ -1,13 +1,13 @@
-@extends('layouts.navbar')
+@extends('admin.admin_layouts.navbar')
 
-@section('title', 'News')
+@section('title', 'Product')
 
 @section('content')
 
-    {{-- Panel News --}}
+    {{-- Panel Product --}}
     <div class="panel panel-flat">
         <div class="panel-heading">
-            <h5 class="panel-title">{{ $news->judulNews }}</h5>
+            <h5 class="panel-title">{{ $Product->namaProduct }}</h5>
 
             <div class="heading-elements">
                 <ul class="icons-list">
@@ -19,7 +19,7 @@
 	<!-- Back -->
     <div class="container-fluid padkonten mg-60" style="padding-bottom: 0;">
 
-        <a href="/admin/news" class="btn btn-info">
+        <a href="/admin/product" class="btn btn-info">
             <i class="arrow-left" style="padding-top: 5px;"></i> Back
         </a>
 
@@ -30,33 +30,32 @@
 
 
 		<!-- Form -->
-		<form action="/admin/news/update" method="post" enctype="multipart/form-data">
+		<form action="/admin/product/update" method="post" enctype="multipart/form-data">
 
 			@csrf
 
-			<input type="number" name="idNews" id="idNews" value="{{ $news->id }}" hidden>
+			<input type="number" name="idProduct" id="idProduct" value="{{ $Product->id }}" hidden>
 
 			<!-- Container Edit -->
 			<div class="row">
 
                 <div class="col-md-12">
                     <div class="col-md-2">
-                        <!-- Foto News -->
+                        <!-- Foto Product -->
                         <p class="h3 mg-20">
-                            Foto
+                            Foto Product
                         </p>
                     </div>
                     <div class="col-md-6">
                         <br>
-                        @if($news->photoNews != null)
-                            <div class="container-input-foto-News row">
+                        @if($Product->photoProduct != null)
+                            <div class="container-input-foto-Product row">
                                 <div class="col-md-4 align-items-center justify-content-center" style="margin-bottom: 10px;">
-                                    <img src="{{ url('/images/news/'.$news->photoNews) }}" style="width: 300%;">
+                                    <img src="{{ url('/images/product/'.$Product->photoProduct) }}" style="width: 150%;">
                                 </div>
                             </div>
                         @endif
-                        <input type="file" id="pic" name="fotoNews" class="form-control-file">
-
+                        <input type="file" id="pic" name="fotoProduct" class="form-control-file">
                     </div>
 
                 </div>
@@ -67,64 +66,15 @@
                 <div class="col-md-12">
 
                     <div class="col-md-2">
-                        <!-- Judul News -->
+                        <!-- Nama Product -->
                         <p class="h3">
-                            Judul
+                            Nama Product
                         </p>
                     </div>
 
                     <div class="col-md-6">
                         <br>
-                        <input type="text" name="judulNews" class="form-control" value="{{ $news->judulNews }}">
-                    </div>
-
-                </div>
-
-                <div class="col-md-12">
-
-                    <div class="col-md-2">
-                        <!-- tanggal News -->
-                        <p class="h3">
-                            Tanggal
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <br>
-                        <input type="text" id="tanggalNews" name="tanggalNews" class="form-control">
-                    </div>
-
-                </div>
-
-                <div class="col-md-12">
-
-                    <div class="col-md-2">
-                        <!-- kategori News -->
-                        <p class="h3">
-                            Kategori
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <br>
-                        <input type="text" name="kategoriNews" class="form-control" value="{{ $news->kategoriNews }}">
-                    </div>
-
-                </div>
-
-                
-
-                <div class="col-md-12">
-
-                    <div class="col-md-2">
-                        <p class="h3">
-                            Deskripsi
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <br>
-                        <textarea class="form-control" id="deskripsiNews" name="deskripsiNews" style="white-space: pre-wrap;">{{$news->deskripsiNews}}</textarea>
+                        <input type="text" name="namaProduct" class="form-control" value="{{ $Product->namaProduct }}">
                     </div>
 
                 </div>
@@ -147,17 +97,9 @@
 
     <script src="//cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
     <script>
-        CKEDITOR.replace( 'deskripsiNews' );
-    </script>   
+        </script>
     <script>
-        $("#tanggalNews").flatpickr({
-            altInput: true,
-            altFormat: "d M Y",
-            dateFormat: "d M Y",
-            defaultDate: `{{ $news->tanggalNews }}`,
-            weekNumbers: true
-        });    
-
+        
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -182,7 +124,7 @@
 
                     $.ajax({
                         type: "post",
-                        url: "/admin/news/delete",
+                        url: "/admin/product/delete",
                         data: {
                             id: id
                         },

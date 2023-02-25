@@ -59,10 +59,12 @@
 
 						<div class="navigation-wrapper collapse" id="user-nav">
 							<ul class="navigation">
-								{{-- <li><a href="#"><i class="icon-user-plus"></i> <span>My profile</span></a></li>
-								<li><a href="#"><i class="icon-coins"></i> <span>My balance</span></a></li>
-								<li><a href="#"><i class="icon-comment-discussion"></i> <span><span class="badge bg-teal-400 pull-right">58</span> Messages</span></a></li>
+								<!-- <li><a href="#"><i class="icon-user-plus"></i> <span>My profile</span></a></li> -->
+								<!-- <li><a href="#"><i class="icon-coins"></i> <span>My balance</span></a></li> -->
+								<!-- <li><a href="#"><i class="icon-comment-discussion"></i> <span><span class="badge bg-teal-400 pull-right">58</span> Messages</span></a></li> -->
 								<li class="divider"></li>
+
+								<!-- Tombol Logout -->
 								<li><a href="#"><i class="icon-cog5"></i> <span>Account settings</span></a></li> --}}
 								<li>
                                     <a href="{{ route('logout') }}" onclick="event.preventDefault();$('#logout-form').submit();">
@@ -84,40 +86,19 @@
 							<ul class="navigation navigation-main navigation-accordion">
 
 								<!-- Main -->
-								{{-- <li class="navigation-header"><span>Main</span>
-                                    <i class="icon-menu" title="Main pages"></i>
-                                </li> --}}
-
-                                {{-- Dashboard --}}
 								<li>
                                     <a href="/admin">
                                         <i class="icon-home2"></i><span>Dashboard</span>
                                     </a>
                                 </li>
 
-                                {{-- Products --}}
-                                <li>
+                                <!-- Contoh Nav List Item -->
+                                <!-- <li>
 									<a href="#"><i class="icon-crown"></i> <span>Products</span></a>
 									<ul>
 										<li><a href="/admin/product"><i class="icon-crown"></i>List Products</a></li>
 									</ul>
-								</li>
-
-                                {{-- News --}}
-                                <li>
-									<a href="#"><i class="icon-basket"></i> <span>News</span></a>
-									<ul>
-										<li><a href="/admin/news"><i class="icon-box"></i>List News</a></li>
-									</ul>
-								</li>
-								
-								{{-- Email --}}
-                                <li>
-									<a href="#"><i class="icon-box"></i> <span>Email</span></a>
-									<ul>
-										<li><a href="/admin/email"><i class="icon-box"></i>List Email</a></li>
-									</ul>
-								</li>
+								</li> -->
 
 							</ul>
 						</div>

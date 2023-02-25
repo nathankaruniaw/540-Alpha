@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    // Controller Auth Laravel
+
     /**
      * Create a new controller instance.
      *
