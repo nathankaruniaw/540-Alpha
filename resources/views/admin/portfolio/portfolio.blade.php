@@ -1,15 +1,15 @@
 @extends('admin.admin_layouts.navbar')
 
-@section('title', 'Client')
+@section('title', 'Portfolio')
 
-@section('breadcrumb', 'Client')
+@section('breadcrumb', 'Portfolio')
 
 @section('content')
 
-    {{-- Panel Client --}}
+    {{-- Panel Portfolio --}}
     <div class="panel panel-flat">
         <div class="panel-heading">
-            <h5 class="panel-title">Client</h5>
+            <h5 class="panel-title">Portfolio</h5>
 
             <div class="heading-elements">
                 <ul class="icons-list">
@@ -25,7 +25,7 @@
                 {{-- Modal --}}
                 <div class="row">
 
-                   <a id="buttonModal" class="btn btn-info" data-toggle="modal" data-target="#modal"><i class="icon-plus2"></i>Tambah Client</a>
+                   <a id="buttonModal" class="btn btn-info" data-toggle="modal" data-target="#modal"><i class="icon-plus2"></i>Tambah Portfolio</a>
 
                     <!-- Modal -->
                     <div class="modal fade text-left" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
@@ -33,7 +33,7 @@
                             <div class="modal-content">
 
                                 <div class="modal-header">
-                                    <h5 class="" id="modalLabel">Client</h5>
+                                    <h5 class="" id="modalLabel">Portfolio</h5>
                                     <button type="button" id="modalCloseBtn" class="close" data-dismiss="modal" aria-label="Close">
                                         <i class="icon-cross"></i>
                                     </button>
@@ -45,24 +45,24 @@
 
                                         <div class="row">
 
-                                            <form class="form-horizontal" method="post" enctype="multipart/form-data" action="/admin/client/insert">
+                                            <form class="form-horizontal" method="post" enctype="multipart/form-data" action="/admin/portfolio/insert">
                                                 @csrf
-                                                <input type="number" class="idClient" name="idClient" value="" hidden>
+                                                <input type="number" class="idPortfolio" name="idPortfolio" value="" hidden>
 
                                                 <div class="col-md-12" id="mainForm">
 
                                                     <fieldset class="content-group">
-                                                        <legend class="text-bold">Data Client</legend>
+                                                        <legend class="text-bold">Data Portfolio</legend>
 
-                                                        {{-- Nama Client --}}
+                                                        {{-- Nama Portfolio --}}
                                                         <div class="form-group">
                                                             <label class="control-label col-lg-2">Nama</label>
                                                             <div class="col-lg-10">
-                                                                <input name="name" id="name" type="text" class="form-control" placeholder="Nama Client....">
+                                                                <input name="name" id="name" type="text" class="form-control" placeholder="Nama Portfolio....">
                                                             </div>
                                                         </div>
 
-                                                        {{-- Foto Product --}}
+                                                        {{-- Foto Portfolio --}}
                                                         <div class="form-group">
                                                             <label class="control-label col-lg-2">Foto</label>
                                                             <div class="col-lg-10">
@@ -91,31 +91,31 @@
                 </div>
 
                 {{-- Main Table --}}
-                <table id="tableClient" class="table table-striped">
+                <table id="tablePortfolio" class="table table-striped">
 
                     <thead>
                         <th>No</th>
-                        <th>Nama Client</th>
+                        <th>Nama Portfolio</th>
                         <th>Detail</th>
                         <th>Aksi</th>
                     </thead>
                     <tbody>
                         <?php $count = 1; ?>
-                        @foreach($data as $client)
+                        @foreach($data as $portfolio)
                             <tr>
                                 <td><?php echo $count ?></td>                                
-                                <td>{{$client->name}}</td>
-                                <td><a href="/admin/client/edit/{{$client->id}}"><i style="color: black;" class="icon-pencil7"></i></a></td>
-                                <td><a onclick="confirmationDelete({{$client->id}})"><i style="color: red;" class="icon-trash-alt"></i></a></td>
+                                <td>{{$portfolio->name}}</td>
+                                <td><a href="/admin/portfolio/edit/{{$portfolio->id}}"><i style="color: black;" class="icon-pencil7"></i></a></td>
+                                <td><a onclick="confirmationDelete({{$portfolio->id}})"><i style="color: red;" class="icon-trash-alt"></i></a></td>
                             </tr>
                             <?php $count += 1 ?>
                         @endforeach
                     </tbody>
                 </table>
             </div>
-            <form id="formDeleteClient" method="post" action="{{route('delete_client')}}">
+            <form id="formDeletePortfolio" method="post" action="{{route('delete_portfolio')}}">
                 @csrf
-                <input type="hidden" name="id_delete_client" id="id_delete_client">
+                <input type="hidden" name="id_delete_portfolio" id="id_delete_portfolio">
             </form>
         </div>
     </div>
@@ -127,7 +127,7 @@
     <!-- <script src="/js/pages/product.js"></script> -->
     <script>
         function confirmationDelete(id){
-            var id_client = id;
+            var id_portfolio = id;
             Swal.fire({
                 title: 'Delete ?',
                 icon: 'question',
@@ -139,8 +139,8 @@
                 denyButtonText: `Don't Delete`,
             }).then((result) => {
                 if (result.isConfirmed) {
-                    $('#id_delete_client').val(id_client);
-                    $('#formDeleteClient').submit();
+                    $('#id_delete_portfolio').val(id_portfolio);
+                    $('#formDeletePortfolio').submit();
                 } else if (result.isDenied) {
                     Swal.fire('Canceled', '', 'info')
                 }

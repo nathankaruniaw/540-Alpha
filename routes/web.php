@@ -35,4 +35,14 @@ Route::prefix('/admin')->middleware('auth')->group(function(){
         Route::post('/delete', 'AdminController@deleteClient')->name('delete_client');
 
     });
+    
+    Route::prefix('/portfolio')->group(function(){
+    
+        Route::get('', 'AdminController@portfolio');
+        Route::post('/insert', 'AdminController@portfolioInsert');
+        Route::get('/edit/{id}', 'AdminController@editPortfolio');
+        Route::post('/update', 'AdminController@updatePortfolio');
+        Route::post('/delete', 'AdminController@deletePortfolio')->name('delete_portfolio');
+    
+    });
 });
