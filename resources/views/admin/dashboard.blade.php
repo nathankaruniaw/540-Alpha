@@ -1,6 +1,6 @@
 @extends('admin.admin_layouts.navbar')
 
-@section('title', 'Dashboard Prosera')
+@section('title', 'Dashboard 540 Alpha')
 
 @section('breadcrumb', 'Dashboard')
 

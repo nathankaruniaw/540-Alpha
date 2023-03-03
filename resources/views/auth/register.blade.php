@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Login</title>
+    <title>Register</title>
 
 	@include('admin.admin_layouts.header')
 

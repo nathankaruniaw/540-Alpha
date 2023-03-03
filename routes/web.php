@@ -25,4 +25,14 @@ Route::get('/','MainController@homepage');
 Route::prefix('/admin')->middleware('auth')->group(function(){
 
     Route::get('', 'AdminController@dashboard')->name('admin');
+
+    Route::prefix('/client')->group(function(){
+
+        Route::get('', 'AdminController@client');
+        Route::post('/insert', 'AdminController@clientInsert');
+        Route::get('/edit/{id}', 'AdminController@editClient');
+        Route::post('/update', 'AdminController@updateClient');
+        Route::post('/delete', 'AdminController@deleteClient')->name('delete_client');
+
+    });
 });

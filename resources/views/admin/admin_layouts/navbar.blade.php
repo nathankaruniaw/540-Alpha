@@ -5,7 +5,7 @@
     <title>@yield('title')</title>
 
     <link rel="icon" href="https://funitypteltd.com/images/tab-icon.png">
-    @include('layouts.header')
+    @include('admin.admin_layouts.header')
 
 </head>
 <body>
@@ -65,7 +65,7 @@
 								<li class="divider"></li>
 
 								<!-- Tombol Logout -->
-								<li><a href="#"><i class="icon-cog5"></i> <span>Account settings</span></a></li> --}}
+								<li><a href="#"><i class="icon-cog5"></i> <span>Account settings</span></a></li> 
 								<li>
                                     <a href="{{ route('logout') }}" onclick="event.preventDefault();$('#logout-form').submit();">
                                         <i class="icon-switch2"></i> <span>Logout</span>
@@ -93,12 +93,18 @@
                                 </li>
 
                                 <!-- Contoh Nav List Item -->
-                                <!-- <li>
-									<a href="#"><i class="icon-crown"></i> <span>Products</span></a>
+                                <li>
+									<a href="#"><i class="icon-crown"></i> <span>Advisory Clients</span></a>
 									<ul>
-										<li><a href="/admin/product"><i class="icon-crown"></i>List Products</a></li>
+										<li><a href="/admin/client"><i class="icon-crown"></i>List Clients</a></li>
 									</ul>
-								</li> -->
+								</li>
+								<li>
+									<a href="#"><i class="icon-crown"></i> <span>Portfolio</span></a>
+									<ul>
+										<li><a href="/admin/portfolio"><i class="icon-crown"></i>List Portfolio</a></li>
+									</ul>
+								</li>
 
 							</ul>
 						</div>
@@ -133,7 +139,7 @@
 
 					<!-- Footer -->
 					<div class="footer text-muted">
-						PROSERA <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
+						540 ALPHA <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
 					</div>
 					<!-- /footer -->
 

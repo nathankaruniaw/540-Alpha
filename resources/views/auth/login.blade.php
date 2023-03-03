@@ -39,7 +39,7 @@
 						<div class="panel panel-body login-form">
 							<div class="text-center">
 								<div class="icon-object border-slate-300 text-slate-300"><i class="icon-paw"></i></div>
-								<h5 class="content-group">Login to your account in<small class="display-block">PROSERA</small></h5>
+								<h5 class="content-group">Login to your account in<small class="display-block">540 Alpha</small></h5>
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
