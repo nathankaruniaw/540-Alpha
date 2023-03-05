@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 // Auth Laravel
 Auth::routes();
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
 // Non Admin
 Route::get('/','MainController@homepage');
