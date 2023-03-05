@@ -15,10 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 // Auth Laravel
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
 // Non Admin
-Route::get('/','MainController@homepage');
+Route::get('/','DashboardController@dashboard');
+Route::get('/portfolio','DashboardController@portfolio');
+Route::get('/get-advisory/{count}','DashboardController@getAdvisory');
 
 
 // Admin
