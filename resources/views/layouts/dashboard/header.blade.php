@@ -3,14 +3,14 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 {{-- Logo --}}
-<link rel="shortcut icon" href="/dashboardAssets/Assets/icon/odoroki.png">
+<link rel="shortcut icon" href="/images/logo.png">
 
 {{-- CSS Sendiri --}}
 <link href="/css/dashboard/dashboard.css" rel="stylesheet" type="text/css">
 <link href="/css/dashboard/dashboardResponsive.css" rel="stylesheet" type="text/css">
 <link href="/css/dashboard/typography.css" rel="stylesheet" type="text/css">
 <link href="/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
-
+<link href="../../../css/index.css" rel="stylesheet" type="text/css">
 
 {{-- Js Umum --}}
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

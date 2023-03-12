@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 
+<<<<<<< HEAD
+    <title>Dashboard Admin 540 Alpha</title>
+=======
     <title>Login</title>
+>>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5
 
 	@include('admin.admin_layouts.header')
 
@@ -13,8 +17,13 @@
 	<!-- Main navbar -->
 	<div class="navbar navbar-inverse bg-indigo" style="background-color: #E0D5BB;">
 		<div class="navbar-header">
+<<<<<<< HEAD
+            {{-- Logo --}}
+			<a class="navbar-brand" href="index.html"><img src="/imgaes/logo.png" alt=""></a>
+=======
 			<!-- Logo -->
 			<!-- <a class="navbar-brand" href="index.html"><img src="/dashboardAssets/logo/odoroki.png" alt=""></a> -->
+>>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5
 		</div>
 	</div>
 	<!-- /main navbar -->
@@ -78,7 +87,7 @@
 
 					<!-- Footer -->
 					<div class="footer text-muted text-center">
-						<a style="background-color: #E0D5BB;color: white;" href="https://www.instagram.com/larv.studio/">Design and developed by LARVSTD</a>
+						<a style="color: black;" href="https://www.instagram.com/larv.studio/">Design and developed by LARVSTD</a>
 					</div>
 					<!-- /footer -->
 
