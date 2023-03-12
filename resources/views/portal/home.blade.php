@@ -15,7 +15,7 @@
     <div class="image-wrapper">
       <img
         class="filter-70"
-        src="assets/img/pexels-photo-247599.jpg"
+        src="assets/img/portal/pexels-photo-247599.jpg"
         alt=""
       />
     </div>
@@ -76,27 +76,5 @@
     </div>
   </section>
 
-  <!-- Pitch Section -->
-  <section class="pitch-section">
-    <div class="container-fluid-custom">
-      <div class="row">
-        <div class="col-md-3">
-          <h2 class="text-xl text-white">Send a Pitch</h2>
-        </div>
-        <div class="col-md-6">
-          <p class="text-m pr-13 text-white">
-            We are always looking for exceptional founders to join our
-            ecosystem. Submit your pitch for review here.
-          </p>
-        </div>
-        <div class="col-md-3">
-          <button type="button pointer" class="standard-button">
-            Learn More
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-  
 </body>
 </html>

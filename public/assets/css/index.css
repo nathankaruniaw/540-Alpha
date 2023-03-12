@@ -249,7 +249,8 @@ body {
 }
 
 /* Section Preset */
-.about-section {
+.about-section,
+.services-section {
   background-color: #005F41;
   color: #f3f3f3;
   padding: 8rem 0;
@@ -264,12 +265,70 @@ body {
   background-color: #4687FF;
 }
 
-.focus-section {
+.focus-section,
+.approach-section {
   padding: 8rem 0;
 }
 
+.team-section {
+  padding: 5rem 0;
+}
+
+.team-1 .team-content {
+  background-color: #5688FF;
+  color: #fff;
+  height: 100%;
+}
+
+.team-2 .team-content,
+.team-3 .team-content {
+  background-color: #D1F49C;
+  color: #005F41;
+  height: 100%;
+}
+
+.team-4 .team-content {
+  background-color: #035D43;
+  color: #fff;
+  height: 100%;
+}
+
+
 footer {
   background-color: #005F41;
+}
+
+/* Vertical Accordion */
+#accordion .card {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.card-header {
+  border-bottom: none;
+  background: none;
+  padding: 2rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.background-none {
+  background: none;
+}
+
+.border-none {
+  border: none;
 }
 
 /* Text Setting */
@@ -289,6 +348,9 @@ footer {
   font-weight: 600;
 }
 
+.line-height-l {
+  line-height: 1.5 !important;
+}
 
 .heading-l {
   font-size: 35px;
@@ -297,11 +359,15 @@ footer {
 
 .text-m {
   font-size: 25px;
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 .text-sm {
   font-size: 20px;
+}
+
+.text-xs {
+  font-size: 18px;
 }
 
 .font-medium {
@@ -343,8 +409,16 @@ p {
   margin-top: 6rem;
 }
 
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
 .mt-7 {
   margin-top: 7rem;
+}
+
+.mb-7 {
+  margin-bottom: 7rem;
 }
 
 .mt-10 {
@@ -360,6 +434,10 @@ p {
 
 .pt-8 {
   padding-top: 8rem;
+}
+
+.pb-5 {
+  padding-bottom: 5rem;
 }
 
 .px-7 {
@@ -379,9 +457,40 @@ p {
   object-position: center -100px;
 }
 
+.image-wrapper-small {
+  margin-left: 15rem;
+  overflow: hidden;
+  width: 100%;
+  height: 30rem;
+}
+
+.image-wrapper-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center -150px;
+}
+
+.image-wrapper-m img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center -150px;
+}
+
 .filter-70 {
   filter: brightness(0.7);
   -webkit-filter: brightness(0.7);
+}
+
+.bottom-corner {
+  bottom: 10px;
+  transform: translateY(60px);
+  right: 25%;
+  -webkit-transform: translateY(60px);
+  -moz-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  -o-transform: translateY(60px);
 }
 
 /* Footer Nav */
