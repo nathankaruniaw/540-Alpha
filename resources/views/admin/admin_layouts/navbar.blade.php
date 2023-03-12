@@ -5,7 +5,7 @@
     <title>@yield('title')</title>
 
     <link rel="icon" href="https://funitypteltd.com/images/tab-icon.png">
-    @include('layouts.header')
+    @include('admin.admin_layouts.header')
 
 </head>
 <body>
@@ -59,11 +59,13 @@
 
 						<div class="navigation-wrapper collapse" id="user-nav">
 							<ul class="navigation">
-								{{-- <li><a href="#"><i class="icon-user-plus"></i> <span>My profile</span></a></li>
-								<li><a href="#"><i class="icon-coins"></i> <span>My balance</span></a></li>
-								<li><a href="#"><i class="icon-comment-discussion"></i> <span><span class="badge bg-teal-400 pull-right">58</span> Messages</span></a></li>
+								<!-- <li><a href="#"><i class="icon-user-plus"></i> <span>My profile</span></a></li> -->
+								<!-- <li><a href="#"><i class="icon-coins"></i> <span>My balance</span></a></li> -->
+								<!-- <li><a href="#"><i class="icon-comment-discussion"></i> <span><span class="badge bg-teal-400 pull-right">58</span> Messages</span></a></li> -->
 								<li class="divider"></li>
-								<li><a href="#"><i class="icon-cog5"></i> <span>Account settings</span></a></li> --}}
+
+								<!-- Tombol Logout -->
+								<li><a href="#"><i class="icon-cog5"></i> <span>Account settings</span></a></li> 
 								<li>
                                     <a href="{{ route('logout') }}" onclick="event.preventDefault();$('#logout-form').submit();">
                                         <i class="icon-switch2"></i> <span>Logout</span>
@@ -84,17 +86,13 @@
 							<ul class="navigation navigation-main navigation-accordion">
 
 								<!-- Main -->
-								{{-- <li class="navigation-header"><span>Main</span>
-                                    <i class="icon-menu" title="Main pages"></i>
-                                </li> --}}
-
-                                {{-- Dashboard --}}
 								<li>
                                     <a href="/admin">
                                         <i class="icon-home2"></i><span>Dashboard</span>
                                     </a>
                                 </li>
 
+<<<<<<< HEAD:resources/views/layouts/navbar.blade.php
                                 {{-- Clients --}}
                                 <li>
 									<a href="#"><i class="icon-crown"></i> <span>Clients</span></a>
@@ -111,6 +109,22 @@
 									</ul>
 								</li>
 								
+=======
+                                <!-- Contoh Nav List Item -->
+                                <li>
+									<a href="#"><i class="icon-crown"></i> <span>Advisory Clients</span></a>
+									<ul>
+										<li><a href="/admin/client"><i class="icon-crown"></i>List Clients</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#"><i class="icon-crown"></i> <span>Portfolio</span></a>
+									<ul>
+										<li><a href="/admin/portfolio"><i class="icon-crown"></i>List Portfolio</a></li>
+									</ul>
+								</li>
+
+>>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5:resources/views/admin/admin_layouts/navbar.blade.php
 							</ul>
 						</div>
 					</div>
@@ -144,7 +158,11 @@
 
 					<!-- Footer -->
 					<div class="footer text-muted">
+<<<<<<< HEAD:resources/views/layouts/navbar.blade.php
 						540 Alpha <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
+=======
+						540 ALPHA <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
+>>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5:resources/views/admin/admin_layouts/navbar.blade.php
 					</div>
 					<!-- /footer -->
 

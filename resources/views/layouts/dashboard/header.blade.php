@@ -11,6 +11,7 @@
 <link href="/css/dashboard/typography.css" rel="stylesheet" type="text/css">
 <link href="/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
 
+
 {{-- Js Umum --}}
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="/js/dashboard/page.js"></script>

@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/','MainController@homepage');
 
 Route::prefix('/admin')->middleware('auth')->group(function(){
@@ -40,11 +41,40 @@ Route::prefix('/admin')->middleware('auth')->group(function(){
         Route::post('/update', 'AdminController@portfolioUpdate');
         Route::post('/delete', 'AdminController@portfolioDelete');
 
-    });
-
-});
-
-
+=======
+// Auth Laravel
 Auth::routes();
+// Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Non Admin
+Route::get('/','DashboardController@dashboard');
+Route::get('/portfolio','DashboardController@portfolio');
+Route::get('/get-advisory/{count}','DashboardController@getAdvisory');
+
+
+// Admin
+Route::prefix('/admin')->middleware('auth')->group(function(){
+
+    Route::get('', 'AdminController@dashboard')->name('admin');
+
+    Route::prefix('/client')->group(function(){
+
+        Route::get('', 'AdminController@client');
+        Route::post('/insert', 'AdminController@clientInsert');
+        Route::get('/edit/{id}', 'AdminController@editClient');
+        Route::post('/update', 'AdminController@updateClient');
+        Route::post('/delete', 'AdminController@deleteClient')->name('delete_client');
+
+    });
+    
+    Route::prefix('/portfolio')->group(function(){
+    
+        Route::get('', 'AdminController@portfolio');
+        Route::post('/insert', 'AdminController@portfolioInsert');
+        Route::get('/edit/{id}', 'AdminController@editPortfolio');
+        Route::post('/update', 'AdminController@updatePortfolio');
+        Route::post('/delete', 'AdminController@deletePortfolio')->name('delete_portfolio');
+    
+>>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5
+    });
+});
