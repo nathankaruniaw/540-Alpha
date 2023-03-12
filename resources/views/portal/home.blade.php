@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   @include('portal.layouts.header')
@@ -8,6 +9,7 @@
 
   <title>540-Alpha</title>
 </head>
+
 <body>
 
   <!-- Navbar -->
@@ -16,40 +18,84 @@
   <!-- Hero Section -->
   <section class="hero full-height">
     <div class="image-wrapper">
-      <img
-        class="filter-70"
-        src="assets/img/portal/pexels-photo-247599.jpg"
-        alt=""
-      />
+      <img class="filter-70" src="assets/img/pexels-photo-9697105.jpg" alt="" />
     </div>
-    <div class="absolute-start">
+    <div class="absolute-end">
       <div class="container-fluid-custom">
         <div class="row">
-          <div class="col-md-8">
-            <h1 class="header-2xl text-white">
-              Fiveforty Alpha sees a future where leading businesses are green
+          <div class="col-md-5 offset-md-7">
+            <h1 class="header-text">
+              It is our mission to facilitate businesses in capturing their
+              positions in this coming future
             </h1>
+            <button type="button pointer" class="standard-button mt-5">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Focus Section -->
-  <section class="focus-section">
+  <!-- About Section -->
+  <section class="about-section">
     <div class="container-fluid-custom">
       <div class="row">
-        <div class="col-md-5">
-          <h2 class="text-xl font-medium text-color-primary">
-            Scope of Focus
+        <div class="col-md-6">
+          <h2 class="text-xl">
+            Fiveforty Alpha <br />
+            sees a future where <br />
+            leading businesses are green
           </h2>
         </div>
-        <div class="col-md-6">
-          <p class="text-m text-color-primary">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim ad minim veniam,
-          </p>
+        <div class="col-12 mt-6">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="text-lg">540.</h3>
+              <p class="mt-5">
+                540 TH<sub>z</sub> (color frequency) = green.
+              </p>
+              <p class="mt-5 pr-13">
+                Fiveforty Alpha believes in the outperformance of sustainable
+                and climate-friendly sectors. We focus our assistance on
+                incumbent and new businesses joining the sector.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-lg">Alpha</h3>
+              <p class="mt-5">α = excess returns.</p>
+              <p class="mt-5 pr-13">
+                Fiveforty Alpha builds the right strategy in achieving more
+                than market returns. We combine our business savvy and network
+                to help companies in growth and transition.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-6">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="w-100">
+                <img width="100%" src="assets/img/Homepage-Photo-car.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="px-7">
+                <h2 class="text-xl">
+                  540 Alpha offers our combined <br />
+                  business and technical expertise <br />
+                  plus our insight and network <br />
+                  in the green sector
+                </h2>
+                <button type="button pointer" class="standard-button mt-5">
+                  Learn More
+                </button>
+                <div class="mt-10">
+                  <img src="assets/img/Homepage-Photo-car-sun.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -80,4 +126,5 @@
   </section>
 
 </body>
+
 </html>
