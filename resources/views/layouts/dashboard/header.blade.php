@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 {{-- Logo --}}
-<link rel="shortcut icon" href="/dashboardAssets/Assets/icon/odoroki.png">
+<link rel="shortcut icon" href="/images/logo.png">
 
 {{-- CSS Sendiri --}}
 <link href="/css/dashboard/dashboard.css" rel="stylesheet" type="text/css">

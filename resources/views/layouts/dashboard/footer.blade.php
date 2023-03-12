@@ -5,7 +5,7 @@
 
         {{-- Logo --}}
         <div class="col-md-3 align-flex-center text-center">
-            <img src="/dashboardAssets/Assets/icon/odoroki.png" alt="Logo Odoroki" class="footer-logo">
+            <img src="/images/logo.png" alt="Logo 540 Alpha" class="footer-logo">
         </div>
 
         {{-- Links --}}
@@ -24,13 +24,9 @@
 
                     <p> <a class="nav-link" href="/">Home</a> </p>
 
-                    <p> <a class="nav-link" href="/wedding-bouquet">Wedding Bouqet</a> </p>
+                    <p> <a class="nav-link" href="/clients">Clients</a> </p>
 
-                    <p> <a class="nav-link" href="/decoration">Decoration</a> </p>
-
-                    <p> <a class="nav-link" href="/flower-shop">The Flower Shop</a> </p>
-
-                    <p> <a class="nav-link" href="/flower-class">Flower Class</a> </p>
+                    <p> <a class="nav-link" href="/portfolio">Portfolio</a> </p>
 
                 </div>
             </div>
@@ -48,9 +44,9 @@
                 </div>
 
                 {{-- Collapse Menu --}}
-                <div class="collapse navbar-collapse footer-collapse-menu" id="contacts">
+                <!-- <div class="collapse navbar-collapse footer-collapse-menu" id="contacts">
                     <p> <a class="nav-link" href="mailto:odorokiflorist@gmail.com">odorokiflorist@gmail.com</a> </p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -68,9 +64,9 @@
                 {{-- Collapse Menu --}}
                 <div class="collapse navbar-collapse footer-collapse-menu" id="socials">
 
-                    <p> <a class="nav-link" href="https://www.instagram.com/odorokiflorist/"><img src="/dashboardAssets/Assets/icon/instagram_icon.svg" alt=""> &ensp;@Odorokiflorist </a> </p>
+                    <p> <a class="nav-link" href="https://www.instagram.com/nathankaruniaw/"><img src="/dashboardAssets/Assets/icon/instagram_icon.svg" alt=""> &ensp;@Odorokiflorist </a> </p>
 
-                    <p> <a class="nav-link" href="https://www.facebook.com/odorokifloristofficial"><img src="/dashboardAssets/Assets/icon/facebook_icon.svg" alt=""> &ensp;&ensp;&ensp;@Odorokiflorist </a> </p>
+                    <p> <a class="nav-link" href="https://www.facebook.com/nathanael-karunia"><img src="/dashboardAssets/Assets/icon/facebook_icon.svg" alt=""> &ensp;&ensp;&ensp;@Odorokiflorist </a> </p>
                 </div>
             </div>
         </div>

@@ -16,38 +16,22 @@ class AdminController extends Controller
         return view('admin.dashboard');
     }
 
-    //PRODUCT 
-    public function product(){
+    //clients 
+    public function clients(){
 
-        return view('admin.product.product');
-    }
-    
-    public function email(){
-        
-        return view('admin.email');
-    }
-    
-    public function emailGetData(){
-
-        $data = DB::table('email_user')
-            ->get();
-
-        // dd($data);
-
-        return dataTables::of($data)
-            ->make(true);
+        return view('admin.clients.clients');
     }
 
-    public function productGetData(){
+    public function clientGetData(){
 
-        $data = DB::table('product')
+        $data = DB::table('advisory_client')
             ->get();
 
         // dd($data);
 
         return dataTables::of($data)
             ->addColumn('btnDetail', function($data){
-                return '<a id="buttonDetail" href="/admin/product/edit/'. $data->id .'"><i style="color: black;" class="icon-pencil7"></i></a>';
+                return '<a id="buttonDetail" href="/admin/clients/edit/'. $data->id .'"><i style="color: black;" class="icon-pencil7"></i></a>';
             })
             ->addColumn('btnDelete', function($data){
                 return '<a id="buttonDelete" data-id="'. $data->id .'"><i style="color: red;" class="icon-trash-alt"></i></a>';
@@ -56,207 +40,201 @@ class AdminController extends Controller
             ->make(true);
     }
 
-    public function productInsert(Request $request){
+    public function clientsInsert(Request $request){
 
         $data = request()->validate([
-            'namaProduct' => 'required|max:100',
+            'client_name' => 'required|max:100',
         ]);
  
-        DB::table('product')
+        DB::table('advisory_client')
             ->insert([
-                'namaProduct' => $request->namaProduct,
+                'client_name' => $request->client_name,
             ]);
 
-        $maks = DB::table('product')
+        $maks = DB::table('advisory_client')
             ->max('id');
 
-        $Product = DB::table('product')
+        $clients = DB::table('advisory_client')
             ->where('id', $maks)
             ->first();
 
-        $file = $request->file('fotoProduct');
+        $file = $request->file('client_photo');
         if($file != null) {
-            $name= 'fotoProduct' . $Product->id . '.' . $file->getClientOriginalExtension();
-            $tujuan='images/product';
+            $name= 'client_photo' . $clients->id . '.' . $file->getClientOriginalExtension();
+            $tujuan='images/clients';
             $file->move($tujuan, $name);
 
-            DB::table('product')
+            DB::table('advisory_client')
                 ->where('id', $maks)
                 ->update([
-                    'photoProduct' => $name
+                    'client_photo' => $name
                 ]);
         }
     }
 
-    public function editProduct($id){
+    public function editclients($id){
 
-        $Product=DB::table('product')
+        $clients=DB::table('advisory_client')
                 ->where('id', $id)
                 ->first();
 
-        return view('admin/product/editproduct', compact('Product'));
+        return view('admin/clients/editclients', compact('clients'));
     }
 
-     public function updateProduct(Request $request){
+     public function updateclients(Request $request){
             // dd($request);
  
             $data = request()->validate([
-                'namaProduct' => 'required|max:100',
+                'client_name' => 'required|max:100',
             ]);
  
-            DB::table('product')
-                ->where('id', $request->idProduct)
+            DB::table('advisory_client')
+                ->where('id', $request->id)
                 ->update([
-                    'namaProduct' => $request->namaProduct,
+                    'client_name' => $request->client_name,
                 ]);
                 
-            $product = DB::table('product')
-                ->where('id', $request->idProduct)
+            $clients = DB::table('advisory_client')
+                ->where('id', $request->id)
                 ->first();
  
-            $file=$request->file('fotoProduct');
+            $file=$request->file('client_photo');
             if ($file != null) {
  
-                File::delete('images/product/'.$product->photoProduct);
+                File::delete('images/clients/'.$clients->client_photo);
                 
-                $name='fotoProduct' . $request->idProduct . '.' . $file->getClientOriginalExtension();
-                $tujuan='images/product/';
+                $name='client_photo' . $request->idclients . '.' . $file->getClientOriginalExtension();
+                $tujuan='images/clients/';
                 $file->move($tujuan, $name);
 
-                DB::table('product')
-                ->where('id', $request->idProduct)
+                DB::table('advisory_client')
+                ->where('id', $request->id)
                 ->update([
-                    'photoProduct' => $name,
+                    'client_photo' => $name,
                 ]);
  
             }
  
-            return redirect()->action('AdminController@product');
+            return redirect()->action('AdminController@clients');
     }
  
-    public function deleteProduct(Request $request){
+    public function deleteclients(Request $request){
  
-        $Product = DB::table('product')
+        $clients = DB::table('advisory_client')
                 ->where('id', $request->id)
                 ->first();
  
-        File::delete('images/product/'.$Product->photoProduct);
+        File::delete('images/clients/'.$clients->client_photo);
 
-        DB::table('product')
+        DB::table('advisory_client')
             ->where('id', $request->id)
             ->delete();
 
         return redirect(url()->previous());
     }
 
-    //NEWS 
-    public function news(){
+    //portfolio 
+    public function portfolio(){
 
-        $data = DB::table('news')
+        $data = DB::table('portfolio')
             ->get();
 
-        return view('admin.news.news', compact('data'));
+        return view('admin.portfolio.portfolio', compact('data'));
     }
 
-    public function newsInsert(Request $request){
+    public function portfolioInsert(Request $request){
 
         $data = request()->validate([
-            'judulNews' => 'required|max:100',
-            'isiNews' => 'required',
-            'tanggalNews' => 'required',
-            'kategoriNews' => 'required',
+            'portfolio_name' => 'required|max:100',
         ]);
  
-        DB::table('news')
+        DB::table('portfolio')
             ->insert([
-                'judulNews' => $request->judulNews,
-                'isiNews' => $request->isiNews,
-                'tanggalNews' => $request->tanggalNews,
-                'kategoriNews' => $request->kategoriNews,
+                'portfolio_name' => $request->portfolio_name
             ]);
 
-        $maks = DB::table('news')
+        $maks = DB::table('portfolio')
             ->max('id');
 
-        $news = DB::table('news')
+        $portfolio = DB::table('portfolio')
             ->where('id', $maks)
             ->first();
 
-        $file = $request->file('fotoNews');
+        $file = $request->file('portfolio_photo');
         if($file != null) {
-            $name= 'fotoNews' . $news->id . '.' . $file->getClientOriginalExtension();
-            $tujuan='images/news/';
+            $name= 'fotoportfolio' . $portfolio->id . '.' . $file->getClientOriginalExtension();
+            $tujuan='images/portfolio/';
             $file->move($tujuan, $name);
 
-            DB::table('news')
+            DB::table('portfolio')
                 ->where('id', $maks)
                 ->update([
-                    'photoNews' => $name
+                    'portfolio_photo' => $name
                 ]);
         }
     }
 
-    public function editNews($id){
+    public function editportfolio($id){
 
-        $news=DB::table('news')
+        $portfolio=DB::table('portfolio')
                 ->where('id', $id)
                 ->first();
 
-        return view('admin/news/editnews', compact('news'));
+        return view('admin/portfolio/editportfolio', compact('portfolio'));
     }
 
-     public function updateNews(Request $request){
+     public function updateportfolio(Request $request){
             // dd($request);
  
             $data = request()->validate([
-                'judulNews' => 'required|max:100',
-                'deskripsiNews' => 'required',
-                'tanggalNews' => 'required',
-                'kategoriNews' => 'required',
+                'judulportfolio' => 'required|max:100',
+                'deskripsiportfolio' => 'required',
+                'tanggalportfolio' => 'required',
+                'kategoriportfolio' => 'required',
             ]);
  
-            DB::table('news')
-                ->where('id', $request->idNews)
+            DB::table('portfolio')
+                ->where('id', $request->idportfolio)
                 ->update([
-                    'judulNews' => $request->judulNews,
-                    'deskripsiNews' => $request->deskripsiNews,
-                    'tanggalNews' => $request->tanggalNews,
-                    'kategoriNews' => $request->kategoriNews,
+                    'judulportfolio' => $request->judulportfolio,
+                    'deskripsiportfolio' => $request->deskripsiportfolio,
+                    'tanggalportfolio' => $request->tanggalportfolio,
+                    'kategoriportfolio' => $request->kategoriportfolio,
                 ]);
  
-            $file=$request->file('fotoNews');
+            $file=$request->file('fotoportfolio');
             if ($file != null) {
  
-                $name='fotoNews' . $request->idNews . '.' . $file->getClientOriginalExtension();
-                if(File::exists(public_path('images/news/. $name .'))){
-                    File::delete(public_path('images/news/. $name .'));
-                    $tujuan='images/news/';
+                $name='fotoportfolio' . $request->idportfolio . '.' . $file->getClientOriginalExtension();
+                if(File::exists(public_path('images/portfolio/. $name .'))){
+                    File::delete(public_path('images/portfolio/. $name .'));
+                    $tujuan='images/portfolio/';
                     $file->move($tujuan, $name);
                 }else{
-                    $tujuan='images/news';
+                    $tujuan='images/portfolio';
                     $file->move($tujuan, $name);
                 }
 
-                DB::table('news')
-                ->where('id', $request->idNews)
+                DB::table('portfolio')
+                ->where('id', $request->idportfolio)
                 ->update([
-                    'photoNews' => $name,
+                    'photoportfolio' => $name,
                 ]);
  
             }
 
-            return redirect()->action('AdminController@news');
+            return redirect()->action('AdminController@portfolio');
     }
  
-    public function deleteNews(Request $request){
+    public function deleteportfolio(Request $request){
  
-        $news = DB::table('news')
+        $portfolio = DB::table('portfolio')
                 ->where('id', $request->id)
                 ->first();
  
-        File::delete('images/news/'.$news->photoNews);
+        File::delete('images/portfolio/'.$portfolio->photoportfolio);
 
-        DB::table('news')
+        DB::table('portfolio')
             ->where('id', $request->id)
             ->delete();
 

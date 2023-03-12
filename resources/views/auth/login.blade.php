@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Dashboard Admin Prosera</title>
+    <title>Dashboard Admin 540 Alpha</title>
 
 	@include('layouts.header')
 
@@ -14,7 +14,7 @@
 	<div class="navbar navbar-inverse bg-indigo" style="background-color: #E0D5BB;">
 		<div class="navbar-header">
             {{-- Logo --}}
-			<a class="navbar-brand" href="index.html"><img src="/dashboardAssets/logo/odoroki.png" alt=""></a>
+			<a class="navbar-brand" href="index.html"><img src="/imgaes/logo.png" alt=""></a>
 		</div>
 	</div>
 	<!-- /main navbar -->
@@ -39,7 +39,7 @@
 						<div class="panel panel-body login-form">
 							<div class="text-center">
 								<div class="icon-object border-slate-300 text-slate-300"><i class="icon-paw"></i></div>
-								<h5 class="content-group">Login to your account in<small class="display-block">PROSERA</small></h5>
+								<h5 class="content-group">Login to your account in<small class="display-block">540 Alpha</small></h5>
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
@@ -78,7 +78,7 @@
 
 					<!-- Footer -->
 					<div class="footer text-muted text-center">
-						<a style="background-color: #E0D5BB;color: white;" href="https://www.instagram.com/larv.studio/">Design and developed by LARVSTD</a>
+						<a style="color: black;" href="https://www.instagram.com/larv.studio/">Design and developed by LARVSTD</a>
 					</div>
 					<!-- /footer -->
 

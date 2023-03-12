@@ -95,30 +95,22 @@
                                     </a>
                                 </li>
 
-                                {{-- Products --}}
+                                {{-- Clients --}}
                                 <li>
-									<a href="#"><i class="icon-crown"></i> <span>Products</span></a>
+									<a href="#"><i class="icon-crown"></i> <span>Clients</span></a>
 									<ul>
-										<li><a href="/admin/product"><i class="icon-crown"></i>List Products</a></li>
+										<li><a href="/admin/clients"><i class="icon-crown"></i>List Clients</a></li>
 									</ul>
 								</li>
 
-                                {{-- News --}}
+                                {{-- Portfolio --}}
                                 <li>
-									<a href="#"><i class="icon-basket"></i> <span>News</span></a>
+									<a href="#"><i class="icon-basket"></i> <span>Portfolio</span></a>
 									<ul>
-										<li><a href="/admin/news"><i class="icon-box"></i>List News</a></li>
+										<li><a href="/admin/portfolio"><i class="icon-box"></i>List Portfolio</a></li>
 									</ul>
 								</li>
 								
-								{{-- Email --}}
-                                <li>
-									<a href="#"><i class="icon-box"></i> <span>Email</span></a>
-									<ul>
-										<li><a href="/admin/email"><i class="icon-box"></i>List Email</a></li>
-									</ul>
-								</li>
-
 							</ul>
 						</div>
 					</div>
@@ -152,7 +144,7 @@
 
 					<!-- Footer -->
 					<div class="footer text-muted">
-						PROSERA <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
+						540 Alpha <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
 					</div>
 					<!-- /footer -->
 

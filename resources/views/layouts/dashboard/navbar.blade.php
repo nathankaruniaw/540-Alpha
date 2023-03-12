@@ -10,7 +10,7 @@
             <div class="col-md-3">
 
                 <a href="/" class="nav-link">
-                    <img src="/dashboardAssets/logo/odoroki.png" alt="Logo Navbar" class="navbar-logo">
+                    <img src="/images/logo.png" alt="Logo Navbar" class="navbar-logo">
                 </a>
 
             </div>
@@ -18,13 +18,9 @@
             {{-- Menu Desktop --}}
             <div class="col-md-9 d-flex justify-content-end">
 
-                <p> <a class="nav-link" href="/wedding-bouquet">Wedding Bouquet</a> </p>
+                <p> <a class="nav-link" href="/clients">Clients</a> </p>
 
-                <p> <a class="nav-link" href="/decoration">Decoration</a> </p>
-
-                <p> <a class="nav-link" href="/flower-shop">The Flower Shop</a> </p>
-
-                <p> <a class="nav-link" href="/flower-class">Flower Class</a> </p>
+                <p> <a class="nav-link" href="/portfolio">Portfolio</a> </p>
 
             </div>
 
@@ -41,7 +37,7 @@
             <div class="col-md-12 d-flex justify-content-between">
 
                 <a href="/" class="nav-link">
-                    <img src="/dashboardAssets/logo/odoroki.png" alt="Logo Navbar" class="navbar-logo">
+                    <img src="/images/logo.png" alt="Logo Navbar" class="navbar-logo">
                 </a>
 
                 <div class="menu-toggler">

@@ -15,45 +15,30 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','MainController@homepage');
 
-Route::get('/news','MainController@newslist');
-
-Route::get('/news_details/{id}','MainController@newsdetail');
-
-Route::get('/news/load-more/{count}', 'MainController@newsLoadMore');
-
-Route::post('/send_email_user', 'MainController@sendEmailUser');
-
 Route::prefix('/admin')->middleware('auth')->group(function(){
 
     Route::get('', 'AdminController@dashboard')->name('admin');
-    
-    Route::prefix('/email')->group(function(){
-        
-        Route::get('', 'AdminController@email');
-        Route::get('/getData', 'AdminController@emailGetData');
-    });
 
+    Route::prefix('/clients')->group(function(){
 
-    Route::prefix('/product')->group(function(){
+        Route::get('', 'AdminController@clients');
+        Route::get('/getData', 'AdminController@clientGetData');
+        Route::post('/insert', 'AdminController@clientInsert');
 
-        Route::get('', 'AdminController@product');
-        Route::get('/getData', 'AdminController@productGetData');
-        Route::post('/insert', 'AdminController@productInsert');
-
-        Route::get('/edit/{id}', 'AdminController@editProduct');
-        Route::post('/update', 'AdminController@updateProduct');
-        Route::post('/delete', 'AdminController@deleteProduct');
+        Route::get('/edit/{id}', 'AdminController@clientEdit');
+        Route::post('/update', 'AdminController@clientUpdate');
+        Route::post('/delete', 'AdminController@clientDelete');
 
     });
 
-    Route::prefix('/news')->group(function(){
+    Route::prefix('/portfolio')->group(function(){
 
-        Route::get('', 'AdminController@news');
-        Route::post('/insert', 'AdminController@newsInsert');
+        Route::get('', 'AdminController@portfolio');
+        Route::post('/insert', 'AdminController@portfolioInsert');
 
-        Route::get('/edit/{id}', 'AdminController@editNews');
-        Route::post('/update', 'AdminController@updateNews');
-        Route::post('/delete', 'AdminController@deleteNews');
+        Route::get('/edit/{id}', 'AdminController@portfolioEdit');
+        Route::post('/update', 'AdminController@portfolioUpdate');
+        Route::post('/delete', 'AdminController@portfolioDelete');
 
     });
 
