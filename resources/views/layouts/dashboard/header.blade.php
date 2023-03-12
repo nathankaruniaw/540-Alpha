@@ -10,7 +10,7 @@
 <link href="/css/dashboard/dashboardResponsive.css" rel="stylesheet" type="text/css">
 <link href="/css/dashboard/typography.css" rel="stylesheet" type="text/css">
 <link href="/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
-
+<link href="../../../css/index.css" rel="stylesheet" type="text/css">
 
 {{-- Js Umum --}}
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
