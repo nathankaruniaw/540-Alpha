@@ -10,6 +10,9 @@
 </head>
 <body>
 
+  <!-- Navbar -->
+  @include('portal.layouts.navbar')
+
   <!-- Hero Section -->
   <section class="hero full-height">
     <div class="image-wrapper">
