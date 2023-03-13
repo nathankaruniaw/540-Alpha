@@ -210,6 +210,12 @@ a.fromLeft {
     overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+    .buttonCarousel{
+        width: 100px;
+    }
+}
+
 .imageButton{
     width: 5%;
     height: 20%;
