@@ -20,6 +20,8 @@ Auth::routes();
 // Non Admin
 Route::get('/','DashboardController@dashboard');
 Route::get('/portfolio','DashboardController@portfolio');
+Route::get('/team','DashboardController@team');
+Route::get('/about','DashboardController@about');
 Route::get('/get-advisory/{count}','DashboardController@getAdvisory');
 
 

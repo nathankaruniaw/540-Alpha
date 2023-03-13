@@ -4,13 +4,14 @@
 <head>
 
   @include('portal.layouts.header')
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="src/css/portal.css">
 
   <title>540-Alpha</title>
 </head>
 
 <body>
+@include('portal.layouts.navbar')
 
   <!-- Hero Section -->
   <section class="hero full-height">
@@ -265,6 +266,7 @@
       </div>
     </div>
   </section>
+  @include('portal.layouts.footer')
 </body>
 
 </html>

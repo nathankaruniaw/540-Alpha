@@ -29,6 +29,16 @@ class DashboardController extends Controller
         return view('portal/portfolio', compact('portfolio_ids'));
     }
 
+    public function team(){
+
+        return view('portal/team');
+    }
+
+    public function about(){
+
+        return view('portal/about');
+    }
+
     public function getAdvisory($count){
         $advisory = DB::table('client')
             ->limit($count)

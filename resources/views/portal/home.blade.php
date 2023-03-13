@@ -4,7 +4,7 @@
 <head>
 
   @include('portal.layouts.header')
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="src/css/portal.css">
 
   <title>540-Alpha</title>
@@ -18,7 +18,7 @@
   <!-- Hero Section -->
   <section class="hero full-height">
     <div class="image-wrapper">
-      <img class="filter-70" src="assets/img/pexels-photo-9697105.jpg" alt="" />
+      <img class="filter-70" src="assets/img/portal/pexels-photo-9697105.jpg" alt="" />
     </div>
     <div class="absolute-end">
       <div class="container-fluid-custom">
@@ -76,12 +76,12 @@
           <div class="row">
             <div class="col-md-4">
               <div class="w-100">
-                <img width="100%" src="assets/img/Homepage-Photo-car.png" alt="" />
+                <img width="100%" src="assets/img/portal/Homepage-Photo-car.png" alt="" />
               </div>
             </div>
             <div class="col-md-8">
               <div class="px-7">
-                <h2 class="text-xl">
+                <h2 style="font-size:xx-large;">
                   540 Alpha offers our combined <br />
                   business and technical expertise <br />
                   plus our insight and network <br />
@@ -91,7 +91,7 @@
                   Learn More
                 </button>
                 <div class="mt-10">
-                  <img src="assets/img/Homepage-Photo-car-sun.png" alt="" />
+                  <img src="assets/img/portal/Homepage-Photo-car-sun.png" alt="" />
                 </div>
               </div>
             </div>
@@ -124,6 +124,7 @@
       </div>
     </div>
   </section>
+  @include('portal.layouts.footer')
 
 </body>
 

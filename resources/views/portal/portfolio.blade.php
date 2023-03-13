@@ -3,7 +3,7 @@
 <head>
 
   @include('portal.layouts.header')
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="src/css/portal.css">
 
   <title>540-Alpha</title>
@@ -18,7 +18,7 @@
     <div class="image-wrapper">
       <img
         class="filter-70"
-        src="assets/img/pexels-photo-247599.jpg"
+        src="assets/img/portal/pexels-photo-247599.jpg"
         alt=""
       />
     </div>

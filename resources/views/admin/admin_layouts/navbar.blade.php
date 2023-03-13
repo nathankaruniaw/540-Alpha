@@ -92,24 +92,6 @@
                                     </a>
                                 </li>
 
-<<<<<<< HEAD:resources/views/layouts/navbar.blade.php
-                                {{-- Clients --}}
-                                <li>
-									<a href="#"><i class="icon-crown"></i> <span>Clients</span></a>
-									<ul>
-										<li><a href="/admin/clients"><i class="icon-crown"></i>List Clients</a></li>
-									</ul>
-								</li>
-
-                                {{-- Portfolio --}}
-                                <li>
-									<a href="#"><i class="icon-basket"></i> <span>Portfolio</span></a>
-									<ul>
-										<li><a href="/admin/portfolio"><i class="icon-box"></i>List Portfolio</a></li>
-									</ul>
-								</li>
-								
-=======
                                 <!-- Contoh Nav List Item -->
                                 <li>
 									<a href="#"><i class="icon-crown"></i> <span>Advisory Clients</span></a>
@@ -124,7 +106,6 @@
 									</ul>
 								</li>
 
->>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5:resources/views/admin/admin_layouts/navbar.blade.php
 							</ul>
 						</div>
 					</div>
@@ -158,11 +139,7 @@
 
 					<!-- Footer -->
 					<div class="footer text-muted">
-<<<<<<< HEAD:resources/views/layouts/navbar.blade.php
 						540 Alpha <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
-=======
-						540 ALPHA <i class="icon-x"></i> <a href="https://www.instagram.com/larv.studio/" class="text-muted">LARVSTD</a>
->>>>>>> 790c71017b79f58630e1dae63515fd8ac142e7b5:resources/views/admin/admin_layouts/navbar.blade.php
 					</div>
 					<!-- /footer -->
 
