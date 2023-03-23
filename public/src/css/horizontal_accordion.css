@@ -1,0 +1,49 @@
+/* Source : https://mdbootstrap.com/docs/standard/extended/horizontal-accordion/ */
+.horizontal-accordion-container{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+.horizontal-accordion-choice{
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    align-items: center;
+    transition: width 0.2s;
+    border-radius:3px;
+    margin: 0 1px;
+}
+.expand{
+    width: 70%;
+}
+.unset{
+    width: 25%;
+}
+.small{
+    width: 10%;
+}
+.small>div{
+    opacity: 1;
+}
+.unset > div > p{
+    opacity: 1;
+}
+.expand > div {
+    transition-delay: 200ms;
+    opacity: 1;
+}
+
+.vertical-text{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.text-collapse{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+}
