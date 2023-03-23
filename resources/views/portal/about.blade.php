@@ -4,13 +4,15 @@
 <head>
 
   @include('portal.layouts.header')
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="src/css/portal.css">
+  <link rel="stylesheet" href="src/css/horizontal_accordion.css">
 
   <title>540-Alpha</title>
 </head>
 
 <body>
+  @include('portal.layouts.navbar')
 
   <!-- Hero Section -->
   <section class="hero full-height">
@@ -46,7 +48,57 @@
             erat volutpat. Ut wisi enim ad minim veniam,
           </p>
         </div>
-        <div class="col-md-12"></div>
+        <div class="col-md-12">
+
+          <div class="horizontal-accordion-container horizontal-accordion">
+
+            <div class="card horizontal-accordion-choice unset bg-primary text-white">
+              <div class="text-collapse" style="display:none;">
+                <h5>1. <br/>Sustainable Food and Materials</h5>
+                <p>How to cleanly and effectively transport goods and services to consumers.</p>
+              </div>
+              <div class="text-uncollapse text-center">
+                <p>1.</p>
+                <p class="vertical-text"> Sustainable Food <br/>and Materials </p>
+              </div>
+            </div>
+
+            <div class="card horizontal-accordion-choice unset bg-primary text-white">
+              <div class="text-collapse" style="display:none;">
+                <h5>2. <br/>Clean Logistics and Transportation</h5>
+                <p>How to cleanly and effectively transport goods and services to consumers.</p>
+              </div>
+              <div class="text-uncollapse text-center">
+                <p>2.</p>
+                <p class="vertical-text"> Clean Logistics <br/>and Transportation </p>
+              </div>
+            </div>
+
+            <div class="card horizontal-accordion-choice unset bg-primary text-white">
+              <div class="text-collapse" style="display:none;">
+                <h5>3. <br/>Climate Intelligence and Enabling Technologies</p>
+                <p>How to cleanly and effectively transport goods and services to consumers.</p>
+              </div>
+              <div class="text-uncollapse text-center">
+                <p>3.</p>
+                <p class="vertical-text"> Climate Intelligence <br/>and Enabling Technologies </p>
+              </div>
+            </div>
+
+            <div class="card horizontal-accordion-choice unset bg-primary text-white">
+              <div class="text-collapse" style="display:none;">
+                <h5>4. <br/>Climate Restoration</h5>
+                <p>How to cleanly and effectively transport goods and services to consumers.</p>
+              </div>
+              <div class="text-uncollapse text-center">
+                <p>4.</p>
+                <p class="vertical-text"> Climate <br/>Restoration </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
       </div>
     </div>
   </section>
@@ -265,6 +317,39 @@
       </div>
     </div>
   </section>
+
+  @include('portal.layouts.footer')
+
+  <script>
+    $(document).ready(function () {
+
+      $('.horizontal-accordion-choice').click(function(){
+
+        $('.horizontal-accordion-choice').each(function(){
+          $(this).removeClass('expand')
+          $(this).removeClass('unset')
+          $(this).addClass('small')
+
+          // Uncollapse Text
+          $(this).find('div.text-uncollapse').show()
+
+          // Collapse Text
+          $(this).find('div.text-collapse').hide()
+        })
+
+        $(this).removeClass('small')
+        $(this).addClass('expand')
+
+        // Uncollapse Text
+        $(this).find('div.text-uncollapse').hide()
+
+        // Collapse Text
+        $(this).find('div.text-collapse').show()
+
+      })
+
+    })
+  </script>
 </body>
 
 </html>

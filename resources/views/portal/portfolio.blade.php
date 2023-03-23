@@ -3,7 +3,7 @@
 <head>
 
   @include('portal.layouts.header')
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="src/css/portal.css">
 
   <title>540-Alpha</title>
@@ -18,8 +18,8 @@
     <div class="image-wrapper">
       <img
         class="filter-70"
-        src="assets/img/pexels-photo-247599.jpg"
-        alt=""
+        src="assets/img/portal/pexels-photo-247599.jpg"
+        alt="Hero Section"
       />
     </div>
     <div class="absolute-start">
@@ -54,6 +54,8 @@
           </p>
         </div>
       </div>
+
+      <br>
       
       <div class="row">
 
@@ -92,6 +94,8 @@
           </p>
         </div>
       </div>
+
+      <br>
       
       <div class="row">
 
@@ -175,7 +179,8 @@
                         var list = $('#advisoryClientGroups');
                         list.empty();
                         for (var i = 0; i < data[0].length; i++) {
-                            list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-4"><figure><img src="/images/client/'+ data[0][i].photo +'" alt="News Photo"></figure></div><div class="col-4 text-center"><p>Engagement Type</p></div><div class="col-4 text-center"><p>'+ data[0][i].name +'</p></div></div><hr></div></div>');
+                          list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-md-4"><figure><img src="/images/client/'+ data[0][i].photo +'" alt="News Photo" style="width:100%;height: auto;"></figure></div><div class="col-md-4 text-center"><p>Engagement Type</p></div><div class="col-md-4 text-center"><p>'+ data[0][i].name +'</p></div></div><hr></div></div>');
+                            // list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-4"><figure><img src="/images/client/'+ data[0][i].photo +'" alt="News Photo"></figure></div><div class="col-4 text-center"><p>Engagement Type</p></div><div class="col-4 text-center"><p>'+ data[0][i].name +'</p></div></div><hr></div></div>');
                         }
 
                         if(count >= data[1]){

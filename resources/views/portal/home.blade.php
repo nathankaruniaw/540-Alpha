@@ -4,7 +4,7 @@
 <head>
 
   @include('portal.layouts.header')
-  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="src/css/portal.css">
 
   <title>540-Alpha</title>
@@ -81,7 +81,7 @@
             </div>
             <div class="col-md-8">
               <div class="px-7">
-                <h2 class="text-xl">
+                <h2 style="font-size:xx-large;">
                   540 Alpha offers our combined <br />
                   business and technical expertise <br />
                   plus our insight and network <br />
@@ -124,6 +124,7 @@
       </div>
     </div>
   </section>
+  @include('portal.layouts.footer')
 
 </body>
 
