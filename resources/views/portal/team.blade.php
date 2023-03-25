@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  @include('portal.layouts.colorNavbar')
 
   <!-- Team Section -->
   <section class="team-section">
@@ -32,14 +33,14 @@
   </section>
 
   <!-- Team List -->
-  <sectio class="team-list">
+  <section class="team-list">
     <div class="container-fluid p-0">
       <div class="row">
         <div class="col-md-6">
           <div class="team-1">
             <div class="row">
               <div class="col-md-6 p-0">
-                <img class="w-100" src="assets/img/portal/Eka-Namara-Ginting.png" alt="" />
+                <img class="w-100" src="assets/img/Eka-Namara-Ginting.png" alt="" />
               </div>
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
@@ -66,7 +67,7 @@
           <div class="team-2">
             <div class="row">
               <div class="col-md-6 p-0">
-                <img class="w-100" src="assets/img/portal/Steven-Sujoto.png" alt="" />
+                <img class="w-100" src="assets/img/Steven-Sujoto.png" alt="" />
               </div>
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
@@ -113,7 +114,7 @@
                 </div>
               </div>
               <div class="col-md-6 p-0">
-                <img class="w-100" src="assets/img/portal/Julianto-Johanes.png" alt="" />
+                <img class="w-100" src="assets/img/Julianto-Johanes.png" alt="" />
               </div>
             </div>
           </div>
@@ -140,14 +141,14 @@
                 </div>
               </div>
               <div class="col-md-6 p-0">
-                <img class="w-100" src="assets/img/portal/Reinard-Gunadjaja.png" alt="" />
+                <img class="w-100" src="assets/img/Reinard-Gunadjaja.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </sectio>
+  </section>
 
   <!-- Ambition Section -->
   <section class="ambition-section">

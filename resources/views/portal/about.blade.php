@@ -17,7 +17,7 @@
   <!-- Hero Section -->
   <section class="hero full-height">
     <div class="image-wrapper">
-      <img class="filter-70" src="assets/img/portal/pexels-photo-247599.jpg" alt="" />
+      <img class="filter-70" src="assets/img/pexels-photo-247599.jpg" alt="" />
     </div>
     <div class="absolute-start">
       <div class="container-fluid-custom">
@@ -48,56 +48,67 @@
             erat volutpat. Ut wisi enim ad minim veniam,
           </p>
         </div>
-        <div class="col-md-12">
-
-          <div class="horizontal-accordion-container horizontal-accordion">
-
-            <div class="card horizontal-accordion-choice unset bg-primary text-white">
-              <div class="text-collapse" style="display:none;">
-                <h5>1. <br/>Sustainable Food and Materials</h5>
-                <p>How to cleanly and effectively transport goods and services to consumers.</p>
-              </div>
-              <div class="text-uncollapse text-center">
-                <p>1.</p>
-                <p class="vertical-text"> Sustainable Food <br/>and Materials </p>
-              </div>
-            </div>
-
-            <div class="card horizontal-accordion-choice unset bg-primary text-white">
-              <div class="text-collapse" style="display:none;">
-                <h5>2. <br/>Clean Logistics and Transportation</h5>
-                <p>How to cleanly and effectively transport goods and services to consumers.</p>
-              </div>
-              <div class="text-uncollapse text-center">
-                <p>2.</p>
-                <p class="vertical-text"> Clean Logistics <br/>and Transportation </p>
-              </div>
-            </div>
-
-            <div class="card horizontal-accordion-choice unset bg-primary text-white">
-              <div class="text-collapse" style="display:none;">
-                <h5>3. <br/>Climate Intelligence and Enabling Technologies</p>
-                <p>How to cleanly and effectively transport goods and services to consumers.</p>
-              </div>
-              <div class="text-uncollapse text-center">
-                <p>3.</p>
-                <p class="vertical-text"> Climate Intelligence <br/>and Enabling Technologies </p>
-              </div>
-            </div>
-
-            <div class="card horizontal-accordion-choice unset bg-primary text-white">
-              <div class="text-collapse" style="display:none;">
-                <h5>4. <br/>Climate Restoration</h5>
-                <p>How to cleanly and effectively transport goods and services to consumers.</p>
-              </div>
-              <div class="text-uncollapse text-center">
-                <p>4.</p>
-                <p class="vertical-text"> Climate <br/>Restoration </p>
-              </div>
-            </div>
-
+        <div class="col-md-12 mt-5">
+          <div class="container-slides">
+            <ul class="slides">
+              <li class="slide active brand1">
+                <a href="#" class="action"><span class="accordion-number">1.</span>
+                  <span class="accordion-title">Sustainable Food and Materials</span></a>
+                <div class="slide-content">
+                  <h1>1.</h1>
+                  <h2>Sustainable Food and Materials</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Rerum natus necessitatibus impedit molestiae quisquam
+                    consectetur fugiat ut alias, beatae vitae! Dolorem,
+                    dolorum. Odio, unde a rerum veritatis iste optio animi!
+                  </p>
+                  <p></p>
+                </div>
+              </li>
+              <li class="slide brand2">
+                <a href="#" class="action"><span class="accordion-number">2.</span>
+                  <span class="accordion-title">Clean Logistics and Transportation</span></a>
+                <div class="slide-content">
+                  <h1>2.</h1>
+                  <h2>Clean Logistics and Transportation</h2>
+                  <p>
+                    How to cleanly and effectively transport goods and
+                    services to consumers.
+                  </p>
+                </div>
+              </li>
+              <li class="slide brand3">
+                <a href="#" class="action"><span class="accordion-number">3.</span>
+                  <span class="accordion-title">Climate Intelligence and Enabling Technologies</span></a>
+                <div class="slide-content">
+                  <h1>3.</h1>
+                  <h2>Climate Intelligence and Enabling Technologies</h2>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Consectetur dignissimos illo rerum nobis! Quisquam
+                    recusandae ab, enim facilis accusantium doloremque dolore,
+                    eos ad saepe suscipit temporibus, hic quidem iusto
+                    incidunt.
+                  </p>
+                </div>
+              </li>
+              <li class="slide brand4">
+                <a href="#" class="action"><span class="accordion-number">4.</span>
+                  <span class="accordion-title">Climate Restoration</span></a>
+                <div class="slide-content">
+                  <h1>4.</h1>
+                  <h2>Climate Restoration</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facilis distinctio tempore voluptates laborum! Aliquid
+                    ducimus reiciendis quas aut natus! Et accusantium iste
+                    voluptates porro culpa nemo vitae in quam qui?
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
-
         </div>
       </div>
     </div>
@@ -116,7 +127,7 @@
             plus our insight and network in the green sector
           </h2>
         </div>
-        <div class="col-md-6 pl-4">
+        <div class="col-md-6 strategy">
           <p class="font-medium">Strategy</p>
           <p>
             We help you find your green vision, starting from Business Thesis,
@@ -124,12 +135,12 @@
           </p>
         </div>
         <div class="image-wrapper-small mt-5">
-          <img class="" src="assets/img/portal/pexels-photo-6117551.jpg" alt="" />
+          <img class="" src="assets/img/pexels-photo-6117551.jpg" alt="" />
         </div>
-        <div class="col-md-6 mt-7">
+        <div class="col-md-6 implementation-title">
           <h2 class="text-xl">Implementation</h2>
         </div>
-        <div class="col-md-6 mt-7">
+        <div class="col-md-6 implementation-description">
           <p>
             We translate strategies into real actions in your organisations,
             answering these questions:
@@ -249,7 +260,7 @@
             already shown promise in market fit and scalability
           </h2>
         </div>
-        <div class="col-8 mt-5 mb-5 pb-5">
+        <div class="col-md-8 col-xs-12 mt-5 mb-5 pb-5">
           <p class="text-m text-color-primary font-medium line-height-l">
             "Green" businesses or businesses providing climate mitigation and
             adaptation solutions are some of the next multi-billion dollar
@@ -262,13 +273,13 @@
               <line x1="12" y1="5" x2="12" y2="19"></line>
               <line x1="5" y1="12" x2="19" y2="12"></line>
             </svg>
-            <h3 class="heading-l pr-13 line-height-l">
+            <h3 class="heading-l approach-small-title line-height-l">
               The moment is right to enter or transition into Green
             </h3>
           </div>
         </div>
         <div class="col-md-6">
-          <h3 class="heading-l pr-13 line-height-l">
+          <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
             The moment is right to enter or transition into Green
           </h3>
           <p class="text-m text-color-primary mt-5 line-height-l">
@@ -277,39 +288,39 @@
             sustainable technologies and products
           </p>
         </div>
-        <div class="col-md-8 mt-7 mb-7">
-          <img src="assets/img/portal/About-Us.png" alt="" />
+        <div class="col-md-8 image-about-us">
+          <img src="assets/img/About-Us.png" alt="" />
         </div>
-        <div class="col-md-4 mt-7 mb-7 d-flex align-items-end pb-4">
+        <div class="col-xs-12 col-md-4 value-proposition-title d-flex align-items-end pb-4">
           <h2 class="text-lg line-height-l font-medium pr-5 text-color-primary">
             Our Value <br />
             Proposition
           </h2>
         </div>
-        <div class="col-md-6 mb-6">
-          <img src="assets/img/portal/Value-Proposition-1.png" alt="" />
-          <p class="pr-13 mt-5">
+        <div class="col-md-6 value-wrapper">
+          <img src="assets/img/Value-Proposition-1.png" alt="" />
+          <p class="value-description">
             Technical background to vet and quantify profitable and scalable
             trends in climate solutions
           </p>
         </div>
-        <div class="col-md-6 mb-6">
-          <img src="assets/img/portal/Value-Proposition-2.png" alt="" />
-          <p class="pr-13 mt-5">
+        <div class="col-md-6 value-wrapper">
+          <img src="assets/img/Value-Proposition-2.png" alt="" />
+          <p class="value-description">
             Access to incubation graduates, emerging climate solutions
             founders, and a network of like-minded investors
           </p>
         </div>
-        <div class="col-md-6 mb-6">
-          <img src="assets/img/portal/Value-Proposition-3.png" alt="" />
-          <p class="pr-13 mt-5">
+        <div class="col-md-6 value-wrapper">
+          <img src="assets/img/Value-Proposition-3.png" alt="" />
+          <p class="value-description">
             The right acumen for strategy and timing for both profit and
             impact-oriented clients
           </p>
         </div>
-        <div class="col-md-6 mb-6">
-          <img src="assets/img/portal/Value-Proposition-4.png" alt="" />
-          <p class="pr-13 mt-5">
+        <div class="col-md-6 value-wrapper">
+          <img src="assets/img/Value-Proposition-4.png" alt="" />
+          <p class="value-description">
             Best insights and experience in ensuring regional growth and
             market capture
           </p>
@@ -321,11 +332,11 @@
   @include('portal.layouts.footer')
 
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
 
-      $('.horizontal-accordion-choice').click(function(){
+      $('.horizontal-accordion-choice').click(function() {
 
-        $('.horizontal-accordion-choice').each(function(){
+        $('.horizontal-accordion-choice').each(function() {
           $(this).removeClass('expand')
           $(this).removeClass('unset')
           $(this).addClass('small')

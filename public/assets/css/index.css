@@ -96,21 +96,21 @@ body {
   outline: none;
 }
 
-.navbar-light .navbar-toggler-icon {
+.navbar-toggler-icon {
   width: 24px;
   height: 17px;
   background-image: none;
   position: relative;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid white;
   transition: all 300ms linear;
 }
 
-.navbar-light .navbar-toggler-icon:after,
-.navbar-light .navbar-toggler-icon:before {
+.navbar-toggler-icon:after,
+.navbar-toggler-icon:before {
   width: 24px;
   position: absolute;
   height: 1px;
-  background-color: #000;
+  background-color: white;
   top: 0;
   left: 0;
   content: '';
@@ -118,7 +118,7 @@ body {
   transition: all 300ms linear;
 }
 
-.navbar-light .navbar-toggler-icon:after {
+.navbar-toggler-icon:after {
   top: 8px;
 }
 
@@ -131,7 +131,11 @@ body {
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-  border-color: transparent;
+  border-color: 1px solid #000;
+}
+
+.collapse.show {
+  background: #005F41;
 }
 
 .nav-link {
@@ -296,7 +300,149 @@ body {
 
 footer {
   background-color: #005F41;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
 }
+
+/* Horizontal Accordion */
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+}
+
+.slide {
+  list-style-type: none;
+  height: 550px;
+  width: 10%;
+  overflow: hidden;
+
+  -webkit-transition: all 500ms linear;
+  -moz-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  -ms-transition: all 500ms linear;
+  transition: all 500ms linear;
+}
+
+/* brands colors */
+.brand1 {
+  background-color: #035D43;
+  color: white;
+}
+
+.brand2 {
+  background-color: #D1F49C;
+  color: #035D43;
+}
+
+.brand3 {
+  background-color: #00391C;
+  color: white;
+}
+
+.brand4 {
+  background-color: #5688FF;
+  color: white;
+}
+
+.brand1 a.action {
+  color: white;
+}
+
+.brand2 a.action {
+  color: #005F41;
+}
+
+.brand3 a.action {
+  color: white;
+}
+
+.brand4 a.action {
+  color: white;
+}
+
+.brand2 .slide-content {
+  color: #005F41;
+}
+
+.slide a.action {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.slide a.action .accordion-number {
+  font-size: 30px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.slide a.action .accordion-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 45%;
+  width: 300px;
+  left: -57%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.slide .slide-content p {
+  font-size: 27px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.slide-content {
+  display: block;
+  width: 65rem;
+  padding: 50px 80px;
+}
+
+.slide-content {
+  color: #fff;
+}
+
+.slide-content h2 {
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.active {
+  width: 80%;
+}
+
+.active a.action {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .slides {
+    display: initial;
+  }
+
+  .slide {
+    width: 100% !important;
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  .slide-content {
+    width: 100% !important;
+    padding: 25px;
+    font-size: 95%;
+  }
+}
+
+/* End Horizontal Accordion */
 
 /* Vertical Accordion */
 #accordion .card {
@@ -505,6 +651,36 @@ p {
 .footer-nav:hover {
   text-decoration: none;
   color: #87b355;
+}
+
+.strategy {
+  padding-left: 1.5rem;
+}
+
+.implementation-title,
+.implementation-description {
+  margin-top: 7rem;
+}
+
+.approach-small-title {
+  padding-right: 10rem;
+}
+
+.image-about-us {
+  margin: 7rem 0;
+}
+
+.value-proposition-title {
+  margin: 7rem 0;
+}
+
+.values-description {
+  padding-right: 10rem;
+  margin-top: 3rem;
+}
+
+.value-wrapper {
+  margin-bottom: 6rem;
 }
 
 body.hero-anime p {
@@ -805,13 +981,13 @@ body.dark .dropdown-item {
   color: #fff;
 }
 
-body.dark .navbar-light .navbar-toggler-icon {
-  border-bottom: 1px solid #fff;
+body.dark .navbar-toggler-icon {
+  border-bottom: 1px solid #000;
 }
 
-body.dark .navbar-light .navbar-toggler-icon:after,
-body.dark .navbar-light .navbar-toggler-icon:before {
-  background-color: #fff;
+body.dark .navbar-toggler-icon:after,
+body.dark .navbar-toggler-icon:before {
+  background-color: #000;
 }
 
 body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
@@ -912,4 +1088,191 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 body.dark .logo img {
   filter: brightness(100%);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 575px) {
+
+  /* Text Preset */
+  .header-text {
+    font-size: 40px;
+  }
+
+  .header-2xl {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .text-xl,
+  .slide-content h2 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .text-lg {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .heading-l {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .text-m {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+
+  .text-sm {
+    font-size: 18px;
+  }
+
+  .text-xs {
+    font-size: 16px;
+  }
+
+  .font-medium {
+    font-weight: 500;
+  }
+
+  .font-bold {
+    font-weight: 600;
+  }
+
+  p,
+  .slide .slide-content p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 3rem;
+  }
+
+  /* Container */
+  .container-fluid-custom {
+    padding: 1.5em;
+  }
+
+  /* Section */
+
+  .navbar-brand {
+    width: 70%;
+  }
+
+  .navbar-nav {
+    background: #005F41;
+  }
+
+  .navbar-brand img {
+    height: auto;
+    width: 100%;
+  }
+
+  .hero .image-wrapper img {
+    width: unset;
+  }
+
+  .hero .image-wrapper {
+    overflow: hidden;
+  }
+
+  .about-section,
+  .ambition-section,
+  .pitch-section,
+  .services-section,
+  .approach-section {
+    padding: 3rem 0;
+  }
+
+  footer {
+    padding: 2rem 0;
+  }
+
+  .subdescription {
+    padding-right: 2rem;
+    line-height: 1.8;
+    margin-bottom: 5rem;
+  }
+
+  .copyright {
+    margin-top: 2rem;
+  }
+
+  .offers {
+    padding: 3rem 0;
+  }
+
+  .added-image {
+    width: 100%;
+  }
+
+  .description {
+    padding: 0;
+    line-height: 1.7;
+  }
+
+  .responsive-margin-top {
+    margin-top: 5rem;
+  }
+
+  /* horizontal accordion */
+
+  .slide a.action .accordion-number {
+    display: none;
+  }
+
+  /* end */
+
+  .image-wrapper-small {
+    margin-left: 0;
+  }
+
+  .strategy {
+    margin-top: 3rem;
+    padding-left: 15px;
+  }
+
+  .implementation-title,
+  .implementation-description {
+    margin-top: 2rem;
+  }
+
+  /* vertical accordion */
+
+  .card-header,
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  /* vertical accordion */
+
+  .approach-small-title {
+    padding-right: 0;
+  }
+
+  .image-about-us {
+    margin: 2rem 0;
+  }
+
+  .image-about-us img {
+    width: 100%;
+  }
+
+  .value-proposition-title {
+    margin: 3rem 0;
+  }
+
+  .value-description {
+    margin-top: 2rem;
+    padding-right: 15px;
+  }
+
+  .value-wrapper {
+    margin-bottom: 3rem;
+  }
+
+  .address {
+    margin-bottom: 3rem;
+  }
 }
