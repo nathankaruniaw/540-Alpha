@@ -17,7 +17,7 @@
   <!-- Hero Section -->
   <section class="hero full-height">
     <div class="image-wrapper">
-      <img class="filter-70" src="assets/img/pexels-photo-247599.jpg" alt="" />
+      <img class="filter-70" src="assets/img/portal/pexels-photo-247599.jpg" alt="" />
     </div>
     <div class="absolute-start">
       <div class="container-fluid-custom">
@@ -135,7 +135,7 @@
           </p>
         </div>
         <div class="image-wrapper-small mt-5">
-          <img class="" src="assets/img/pexels-photo-6117551.jpg" alt="" />
+          <img class="" src="assets/img/portal/pexels-photo-6117551.jpg" alt="" />
         </div>
         <div class="col-md-6 implementation-title">
           <h2 class="text-xl">Implementation</h2>
@@ -289,7 +289,7 @@
           </p>
         </div>
         <div class="col-md-8 image-about-us">
-          <img src="assets/img/About-Us.png" alt="" />
+          <img src="assets/img/portal/About-Us.png" alt="" />
         </div>
         <div class="col-xs-12 col-md-4 value-proposition-title d-flex align-items-end pb-4">
           <h2 class="text-lg line-height-l font-medium pr-5 text-color-primary">
@@ -298,28 +298,28 @@
           </h2>
         </div>
         <div class="col-md-6 value-wrapper">
-          <img src="assets/img/Value-Proposition-1.png" alt="" />
+          <img src="assets/img/portal/Value-Proposition-1.png" alt="" />
           <p class="value-description">
             Technical background to vet and quantify profitable and scalable
             trends in climate solutions
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
-          <img src="assets/img/Value-Proposition-2.png" alt="" />
+          <img src="assets/img/portal/Value-Proposition-2.png" alt="" />
           <p class="value-description">
             Access to incubation graduates, emerging climate solutions
             founders, and a network of like-minded investors
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
-          <img src="assets/img/Value-Proposition-3.png" alt="" />
+          <img src="assets/img/portal/Value-Proposition-3.png" alt="" />
           <p class="value-description">
             The right acumen for strategy and timing for both profit and
             impact-oriented clients
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
-          <img src="assets/img/Value-Proposition-4.png" alt="" />
+          <img src="assets/img/portal/Value-Proposition-4.png" alt="" />
           <p class="value-description">
             Best insights and experience in ensuring regional growth and
             market capture
