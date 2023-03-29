@@ -43,25 +43,22 @@
         </div>
         <div class="col-md-6">
           <p class="text-m text-color-primary">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim ad minim veniam,
           </p>
         </div>
-        <div class="col-md-12 mt-5">
+        <div class="col-md-12 mt-5 text-m">
           <div class="container-slides">
             <ul class="slides">
               <li class="slide active brand1">
                 <a href="#" class="action"><span class="accordion-number">1.</span>
-                  <span class="accordion-title">Sustainable Food and Materials</span></a>
+                <span class="accordion-title">Sustainable Food and Materials</span></a>
                 <div class="slide-content">
                   <h1>1.</h1>
                   <h2>Sustainable Food and Materials</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Rerum natus necessitatibus impedit molestiae quisquam
-                    consectetur fugiat ut alias, beatae vitae! Dolorem,
-                    dolorum. Odio, unde a rerum veritatis iste optio animi!
+                    How to efficiently use <br>
+                    diminishing resources and <br>
+                    come up with alternative or <br>
+                    synthetic sources
                   </p>
                   <p></p>
                 </div>
@@ -85,11 +82,10 @@
                   <h1>3.</h1>
                   <h2>Climate Intelligence and Enabling Technologies</h2>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Consectetur dignissimos illo rerum nobis! Quisquam
-                    recusandae ab, enim facilis accusantium doloremque dolore,
-                    eos ad saepe suscipit temporibus, hic quidem iusto
-                    incidunt.
+                    How to ensure solutions and <br>
+                    impact are correctly <br>
+                    quantified. How to ease the <br>
+                    transitional processes
                   </p>
                 </div>
               </li>
@@ -100,10 +96,10 @@
                   <h1>4.</h1>
                   <h2>Climate Restoration</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Facilis distinctio tempore voluptates laborum! Aliquid
-                    ducimus reiciendis quas aut natus! Et accusantium iste
-                    voluptates porro culpa nemo vitae in quam qui?
+                    How to help achieving <br>
+                    temperature limits by <br>
+                    reducing emissions and <br>
+                    sequestering carbon
                   </p>
                 </div>
               </li>
@@ -163,19 +159,23 @@
 
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                  <p class="text-sm">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor, sunt aliqua put a bird on it squid single-origin
-                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice
-                    lomo. Leggings occaecat craft beer farm-to-table, raw
-                    denim aesthetic synth nesciunt you probably haven't heard
-                    of them accusamus labore sustainable VHS.
-                  </p>
+                  <ol>
+                    <li class="text-m mb-4">
+                      How can we design and generate green products?
+                    </li>
+                    <li class="text-m mb-4">
+                      What is the right set up for production at scale?
+                    </li>
+                    <li class="text-m mb-4">
+                      How can we achieve cost efficiency & effectiveness?
+                    </li>
+                    <li class="text-m mb-4">
+                      How can we access the right market?
+                    </li>
+                    <li class="text-m mb-4">
+                      How do we measure and evaluate green KPIs?
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -224,19 +224,23 @@
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
-                  <p class="text-sm">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor, sunt aliqua put a bird on it squid single-origin
-                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice
-                    lomo. Leggings occaecat craft beer farm-to-table, raw
-                    denim aesthetic synth nesciunt you probably haven't heard
-                    of them accusamus labore sustainable VHS.
-                  </p>
+                  <ol>
+                    <li class="text-m mb-4">
+                      How to achieve synergy in the sector?
+                    </li>
+                    <li class="text-m mb-4">
+                      Who to target for synergy and investments?
+                    </li>
+                    <li class="text-m mb-4">
+                      What is the appropriate investment structure?
+                    </li>
+                    <li class="text-m mb-4">
+                      What are the appropriate rate of returns?
+                    </li>
+                    <li class="text-m mb-4">
+                      How do we achieve the return expectations?
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -269,24 +273,36 @@
         </div>
         <div class="col-md-6">
           <div class="content-wrapper position-relative">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus position-absolute bottom-corner text-color-primary">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus position-absolute bottom-corner text-color-primary">
               <line x1="12" y1="5" x2="12" y2="19"></line>
               <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg>
+            </svg> -->
             <h3 class="heading-l approach-small-title line-height-l">
               The moment is right to enter or transition into Green
             </h3>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
-            The moment is right to enter or transition into Green
-          </h3>
-          <p class="text-m text-color-primary mt-5 line-height-l">
+            <p class="text-m text-color-primary mt-5 line-height-l">
             After a long external push from regulations and policies, the
             market has begun intrinsically transitioning into more demand for
             sustainable technologies and products
           </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="content-wrapper position-relative">
+            <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
+              Southeast Asia is lagging compared to North America, Europe, India, and China, but poised to catchup 
+            </h3>
+            <p class="text-m text-color-primary mt-5 line-height-l">
+              As one of the major population centres in the world, Southeast Asia needs the same market-centric solutions for more sustainable livelihood and resource-usage
+            </p>
+            <p class="text-m text-color-primary mt-5 line-height-l">
+              The same solutions already successful in NA, Europe, India, and China would be applicable and translatable to the Southeast Asian market - with a local twist
+            </p>
+            <p class="text-m text-color-primary mt-5 line-height-l">
+              These ideas, however, are still lacking strategy, business development, and financial support in the region
+            </p>
+          </div>
         </div>
         <div class="col-md-8 image-about-us">
           <img src="assets/img/portal/About-Us.png" alt="" />

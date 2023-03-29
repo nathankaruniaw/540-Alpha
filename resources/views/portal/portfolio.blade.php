@@ -141,7 +141,7 @@
   </section>
 
   <!-- Pitch Section -->
-  <section class="pitch-section">
+  <!-- <section class="pitch-section">
     <div class="container-fluid-custom">
       <div class="row">
         <div class="col-md-3">
@@ -160,7 +160,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
   @include('portal.layouts.footer')
