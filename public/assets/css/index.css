@@ -252,6 +252,92 @@ body {
   cursor: pointer;
 }
 
+/* Form Contact us */
+
+.side-title {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.side-title h4 {
+  font-size: 24px;
+}
+
+.orng-radio[type=radio] {
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background: white;
+  line-height: 2.8em;
+}
+
+.orng-radio[type=radio]:before {
+  content: attr(data-text);
+  display: inline-block;
+  text-align: center;
+  line-height: 2.9em;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+}
+
+.orng-radio[type=radio]:focus {
+  outline: none;
+}
+
+.orng-radio[type=radio]:checked {
+  margin-top: 0;
+  background: #FFF;
+  vertical-align: middle;
+}
+
+.orng-radio[type=radio]:checked:before {
+  line-height: 2.65em;
+  color: white;
+  background: #005F41;
+}
+
+.orng-radio[type=radio]:active:before {
+  color: #005F41;
+}
+
+.orng-radio[type=radio]:hover {
+  background: #13926e;
+  color: white;
+}
+
+.orng-radio-group {
+  display: flex;
+  position: relative;
+  vertical-align: middle;
+  border: 1px solid #000;
+}
+
+.orng-radio-group .orng-radio {
+  float: left;
+  border-radius: 0.1em;
+}
+
+fieldset input[type=text],
+fieldset input[type=email] {
+  width: 100%;
+  height: 3rem;
+}
+
+fieldset {
+  margin-bottom: 3rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Form Contact us */
+
 /* Section Preset */
 .about-section,
 .services-section {
@@ -270,7 +356,8 @@ body {
 }
 
 .focus-section,
-.approach-section {
+.approach-section,
+.contact-section {
   padding: 8rem 0;
 }
 
@@ -1181,7 +1268,8 @@ body.dark .logo img {
   .ambition-section,
   .pitch-section,
   .services-section,
-  .approach-section {
+  .approach-section,
+  .contact-section {
     padding: 3rem 0;
   }
 
@@ -1274,5 +1362,13 @@ body.dark .logo img {
 
   .address {
     margin-bottom: 3rem;
+  }
+
+  .orng-radio-group {
+    display: inline-block;
+  }
+
+  .side-title {
+    justify-content: center;
   }
 }
