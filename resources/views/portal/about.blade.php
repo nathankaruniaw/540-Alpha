@@ -50,7 +50,7 @@
             <ul class="slides">
               <li class="slide active brand1">
                 <a href="#" class="action"><span class="accordion-number">1.</span>
-                <span class="accordion-title">Sustainable Food and Materials</span></a>
+                  <span class="accordion-title">Sustainable Food and Materials</span></a>
                 <div class="slide-content">
                   <h1>1.</h1>
                   <h2>Sustainable Food and Materials</h2>
@@ -145,21 +145,19 @@
         <div class="col-md-12 mt-5">
           <div id="accordion">
             <div class="card">
-              <div class="card-header d-flex justify-content-between align-items-center" id="headingOne">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+              <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <h5 class="mb-0">
-                  <button class="heading-l font-medium text-white background-none border-none collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Operations
-                  </button>
+                <h5 class="mb-0 heading-l font-medium text-white">
+                  Operations
                 </h5>
-              </div>
+              </button>
 
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                  <ol>
+                  <ol class="list-accordion">
                     <li class="text-m mb-4">
                       How can we design and generate green products?
                     </li>
@@ -180,20 +178,18 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header d-flex justify-content-between align-items-center" id="headingTwo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+              <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <h5 class="mb-0">
-                  <button class="heading-l font-medium text-white background-none border-none collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Finance
-                  </button>
+                <h5 class="mb-0 heading-l font-medium text-white ">
+                  Finance
                 </h5>
-              </div>
+              </button>
               <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                  <ol>
+                  <ol class="list-accordion">
                     <li class="text-m mb-4">
                       How do we access financing and fund sources?
                     </li>
@@ -211,20 +207,18 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header d-flex justify-content-between align-items-center" id="headingThree">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+              <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                <h5 class="mb-0">
-                  <button class="heading-l font-medium text-white background-none border-none collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Investment
-                  </button>
+                <h5 class="mb-0 heading-l font-medium text-white ">
+                  Investment
                 </h5>
-              </div>
+              </button>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
-                  <ol>
+                  <ol class="list-accordion">
                     <li class="text-m mb-4">
                       How to achieve synergy in the sector?
                     </li>
@@ -281,17 +275,17 @@
               The moment is right to enter or transition into Green
             </h3>
             <p class="text-m text-color-primary mt-5 line-height-l">
-            After a long external push from regulations and policies, the
-            market has begun intrinsically transitioning into more demand for
-            sustainable technologies and products
-          </p>
+              After a long external push from regulations and policies, the
+              market has begun intrinsically transitioning into more demand for
+              sustainable technologies and products
+            </p>
           </div>
         </div>
 
         <div class="col-md-6">
           <div class="content-wrapper position-relative">
             <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
-              Southeast Asia is lagging compared to North America, Europe, India, and China, but poised to catchup 
+              Southeast Asia is lagging compared to North America, Europe, India, and China, but poised to catchup
             </h3>
             <p class="text-m text-color-primary mt-5 line-height-l">
               As one of the major population centres in the world, Southeast Asia needs the same market-centric solutions for more sustainable livelihood and resource-usage
@@ -376,6 +370,11 @@
       })
 
     })
+
+    const changeIcon = () => {
+      const iconAccordion = $('.icon-accordion');
+      iconAccordion.replaceWith(feather.icons['feather feather-minus'].toSvg());
+    }
   </script>
 </body>
 

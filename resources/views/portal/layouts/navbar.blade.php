@@ -21,7 +21,7 @@
                                 <a class="nav-link" href="/portfolio">portfolio</a>
                             </li>
                             <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 start-style">
-                                <a class="nav-link" href="#">contact us</a>
+                                <a class="nav-link" href="/contact-us">contact us</a>
                             </li>
                         </ul>
                     </div>

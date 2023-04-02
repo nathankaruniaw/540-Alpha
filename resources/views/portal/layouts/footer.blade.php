@@ -62,7 +62,7 @@
             </div>
             <div class="col md-6 text-grey">
                 <p class="d-flex justify-content-end text-m">
-                    © Copyright 2023 East Ventures | All Rights Reserved
+                    © Copyright 2023 Five Forty | All Rights Reserved
                 </p>
             </div>
         </div>

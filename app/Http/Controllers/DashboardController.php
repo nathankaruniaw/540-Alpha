@@ -39,6 +39,11 @@ class DashboardController extends Controller
         return view('portal/about');
     }
 
+    public function contact(){
+
+        return view('portal/contact');
+    }
+
     public function getAdvisory($count){
         $advisory = DB::table('client')
             ->limit($count)

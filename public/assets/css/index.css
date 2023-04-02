@@ -140,7 +140,7 @@ body {
 
 .nav-link {
   color: #f3f3f3;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
   transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
@@ -357,7 +357,7 @@ fieldset {
 
 .focus-section,
 .approach-section,
-.contact-section {
+.contact-section, .adivsory-section, .portfolio-section {
   padding: 8rem 0;
 }
 
@@ -482,6 +482,10 @@ footer {
   -o-transform: rotate(90deg);
 }
 
+.brand4 a.action .accordion-title {
+  margin-top: 1rem;
+}
+
 .slide .slide-content p {
   font-size: 27px;
   line-height: 1.5;
@@ -552,6 +556,11 @@ button:focus {
   outline: none;
 }
 
+.card-header:hover {
+  color: whitesmoke;
+  background: #13926e;
+}
+
 .card-body {
   padding: 2rem;
 }
@@ -562,6 +571,10 @@ button:focus {
 
 .border-none {
   border: none;
+}
+
+.list-accordion {
+  margin-left: 3rem;
 }
 
 /* Text Setting */
@@ -1269,7 +1282,7 @@ body.dark .logo img {
   .pitch-section,
   .services-section,
   .approach-section,
-  .contact-section {
+  .contact-section, .adivsory-section, .portfolio-section {
     padding: 3rem 0;
   }
 
