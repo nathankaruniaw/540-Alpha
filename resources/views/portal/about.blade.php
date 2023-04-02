@@ -124,9 +124,9 @@
           </h2>
         </div>
         <div class="col-md-6 strategy">
-          <p class="font-medium">Strategy</p>
-          <p>
-            We help you find your green vision, starting from Business Thesis,
+          <p class="font-medium heading-l">Strategy</p>
+          <p class="text-m">
+            We help you find your green vision, <br> starting from Business Thesis, <br>
             Management, Market, and Growth
           </p>
         </div>
@@ -137,7 +137,7 @@
           <h2 class="text-xl">Implementation</h2>
         </div>
         <div class="col-md-6 implementation-description">
-          <p>
+          <p class="text-m">
             We translate strategies into real actions in your organisations,
             answering these questions:
           </p>
@@ -309,29 +309,29 @@
         </div>
         <div class="col-md-6 value-wrapper">
           <img src="assets/img/portal/Value-Proposition-1.png" alt="" />
-          <p class="value-description">
-            Technical background to vet and quantify profitable and scalable
+          <p class="value-description text-m">
+            Technical background to vet <br> and quantify profitable and <br> scalable
             trends in climate solutions
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
           <img src="assets/img/portal/Value-Proposition-2.png" alt="" />
-          <p class="value-description">
-            Access to incubation graduates, emerging climate solutions
-            founders, and a network of like-minded investors
+          <p class="value-description text-m">
+            Access to incubation graduates, <br> emerging climate solutions
+            founders, <br> and a network of like-minded investors
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
           <img src="assets/img/portal/Value-Proposition-3.png" alt="" />
-          <p class="value-description">
-            The right acumen for strategy and timing for both profit and
+          <p class="value-description text-m">
+            The right acumen for strategy <br> and timing for both profit and <br>
             impact-oriented clients
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
           <img src="assets/img/portal/Value-Proposition-4.png" alt="" />
-          <p class="value-description">
-            Best insights and experience in ensuring regional growth and
+          <p class="value-description text-m">
+            Best insights and experience in <br> ensuring regional growth <br> and
             market capture
           </p>
         </div>

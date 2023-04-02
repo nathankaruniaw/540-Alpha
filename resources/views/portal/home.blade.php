@@ -106,7 +106,7 @@
     <div class="container-fluid-custom">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-xl text-color-primary">
+          <h2 class="text-xl text-color-primary text-center">
             Together, we aim to deliver sustainable returns and create
             positive climate and societal impact.
           </h2>

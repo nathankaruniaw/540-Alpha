@@ -45,7 +45,7 @@
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Eka Namara Ginting</h4>
-                  <p class="mt-5 text-xs line-height-l">
+                  <p class="mt-3 text-xs line-height-l">
                     has embodied the success of being a green business
                     pioneer. As a serial entrepreneur and angel investor, Eka
                     is a seasoned high impact value creator ready to mentor
@@ -72,7 +72,7 @@
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Steven Sujoto</h4>
-                  <p class="mt-5 text-xs line-height-l">
+                  <p class="mt-3 text-xs line-height-l">
                   brings more than 12 years of professional experience in digital 
                   transformation, management consulting and nature-based solutions. 
                   He is passionate in green technology and is currently taking part 
@@ -98,7 +98,7 @@
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Julianto Johanes</h4>
-                  <p class="mt-5 text-xs line-height-l">
+                  <p class="mt-3 text-xs line-height-l">
                     is a passionate investment professional who believes that
                     the right capital allocation strategy can save the world.
                     An INSEAD graduate, he spent his post-MBA life building
@@ -126,7 +126,7 @@
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Reinard Gunadjaja</h4>
-                  <p class="mt-5 text-xs line-height-l">
+                  <p class="mt-3 text-xs line-height-l">
                     is a real-asset management professional with deep
                     expertise in restructuring and extensive network within
                     some of the biggest property conglomerates in Indonesia.
@@ -156,7 +156,7 @@
     <div class="container-fluid-custom">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-xl text-color-primary">
+          <h2 class="text-xl text-color-primary text-center">
             Together, we aim to deliver sustainable returns and create
             positive climate and societal impact.
           </h2>

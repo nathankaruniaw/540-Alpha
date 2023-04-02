@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-3">
                 <button type="button pointer" class="standard-button">
-                    Learn More
+                    <a href="/contact-us">Contact Us</a>
                 </button>
             </div>
         </div>

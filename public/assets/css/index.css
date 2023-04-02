@@ -233,6 +233,15 @@ body {
   color: #212112;
 }
 
+.standard-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.standard-button:hover a {
+  color: #212112;
+}
+
 .secondary-button {
   background: none;
   color: #005F41;
@@ -1383,6 +1392,7 @@ body.dark .logo img {
   .value-description {
     margin-top: 2rem;
     padding-right: 15px;
+
   }
 
   .value-wrapper {
