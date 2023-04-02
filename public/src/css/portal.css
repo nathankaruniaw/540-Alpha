@@ -212,7 +212,7 @@ a.fromLeft {
 
 @media only screen and (max-width: 600px) {
     .buttonCarousel{
-        width: 100px;
+        width: 90px;
     }
 }
 

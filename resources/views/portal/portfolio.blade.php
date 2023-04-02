@@ -116,21 +116,23 @@
             </div>
 
             <!-- Product Carousel -->
-            <div class="row" style="overflow:hidden;">
+            <div class="row" style="overflow:hidden;width:100%;">
 
-            <div class="carouselWrapper slider">
-                @foreach ($portfolio_ids as $portfolio_id)
-                <div class="carouselCard">
+              <div class="carouselWrapper slider">
+                  @foreach ($portfolio_ids as $portfolio_id)
+                  <div class="carouselCard">
 
-                    <p>PRODUCTS</p>
-                    <H1>{{$portfolio_id->name}}</H1>
+                      <p>PRODUCTS</p>
+                      <H1>{{$portfolio_id->name}}</H1>
 
-                    <figure>
-                    <img src="{{ url('/images/portfolio/'.$portfolio_id->photo) }}" alt="Silica" class="carouselCardImage">
-                    </figure>
+                      <figure>
+                      <img src="{{ url('/images/portfolio/'.$portfolio_id->photo) }}" alt="Silica" class="carouselCardImage">
+                      </figure>
 
-                </div>
-                @endforeach
+                  </div>
+                  @endforeach
+              </div>
+
             </div>
 
         </div>
@@ -191,8 +193,8 @@
   <script>  
     $(document).ready(function(){
       $('.carouselWrapper').slick({
-          slidesToShow: 3.4,
-        //   slidesToScroll: 2,
+          slidesToShow: 4,
+          slidesToScroll: 1,
           arrows: true,
           infinite: true,
           autoplay: false,
@@ -204,7 +206,7 @@
                   breakpoint: 600,
                   settings: {
                       arrows: false,
-                      slidesToShow: 1.05,
+                      slidesToShow: 2,
                       slidesToScroll: 1,
                       infinite: true,
                   }
