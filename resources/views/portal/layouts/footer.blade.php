@@ -50,13 +50,13 @@
             <div class="col md-6">
                 <ul class="d-md-flex p-0 m-0 list-none align-items-center">
                     <li class="mr-5">
-                        <a class="text-m footer-nav text-light-green" href="#">about us</a>
+                        <a class="text-m footer-nav text-light-green" href="/about-us">about us</a>
                     </li>
                     <li class="mr-5">
-                        <a class="text-m footer-nav text-light-green" href="#">team</a>
+                        <a class="text-m footer-nav text-light-green" href="/team">team</a>
                     </li>
                     <li class="mr-5">
-                        <a class="text-m footer-nav text-light-green" href="#">portfolio</a>
+                        <a class="text-m footer-nav text-light-green" href="/portfolio">portfolio</a>
                     </li>
                 </ul>
             </div>

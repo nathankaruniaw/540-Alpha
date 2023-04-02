@@ -450,6 +450,22 @@ footer {
   color: white;
 }
 
+.brand1 a.action:hover {
+  color: rgb(219, 219, 219);
+}
+
+.brand2 a.action:hover {
+  color: #038b60;
+}
+
+.brand3 a.action:hover {
+  color: rgb(219, 219, 219);
+}
+
+.brand4 a.action:hover {
+  color: rgb(219, 219, 219);
+}
+
 .brand2 .slide-content {
   color: #005F41;
 }
