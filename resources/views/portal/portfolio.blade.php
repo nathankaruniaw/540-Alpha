@@ -120,12 +120,14 @@
             @foreach ($portfolio_ids as $portfolio_id)
             <div class="carouselCard">
 
-              <p>PRODUCTS</p>
-              <H1>{{$portfolio_id->name}}</H1>
-
-              <figure>
+              <figure class="mb-5 d-flex justify-content-center align-items-center">
                 <img src="{{ url('/images/portfolio/'.$portfolio_id->photo) }}" alt="Silica" class="carouselCardImage">
               </figure>
+
+              <p class="text-color-primary text-xs">Product :</p>
+              <H1 class="text-color-primary font-semibold text-m mb-6">{{$portfolio_id->name}}</H1>
+              <p class="text-color-primary">Stage : Seed</p>
+
 
             </div>
             @endforeach
@@ -157,7 +159,7 @@
             var list = $('#advisoryClientGroups');
             list.empty();
             for (var i = 0; i < data[0].length; i++) {
-              list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-md-4"><figure><img src="/images/client/' + data[0][i].photo + '" alt="News Photo" style="width:100%;height: auto;"></figure></div><div class="col-md-4 text-center d-flex align-items-center"><p>Engagement Type</p></div><div class="col-md-4 text-center d-flex align-items-center"><p>' + data[0][i].name + '</p></div></div><hr></div></div>');
+              list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-md-4"><figure><img src="/images/client/' + data[0][i].photo + '" alt="News Photo" style="width:100%;height: auto;"></figure></div><div class="col-md-4 text-center d-flex align-items-center"><p class="w-100 text-color-primary text-xs">Engagement Type</p></div><div class="col-md-4 text-center d-flex align-items-center"><p class="heading-l text-color-primary w-100">' + data[0][i].name + '</p></div></div><hr></div></div>');
               // list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-4"><figure><img src="/images/client/'+ data[0][i].photo +'" alt="News Photo"></figure></div><div class="col-4 text-center"><p>Engagement Type</p></div><div class="col-4 text-center"><p>'+ data[0][i].name +'</p></div></div><hr></div></div>');
             }
 

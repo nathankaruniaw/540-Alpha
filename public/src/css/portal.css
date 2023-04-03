@@ -311,21 +311,22 @@ a.fromLeft {
     border: 1px solid black;
     position: relative;
     width: 30%;
-    height: 65vh;
+    height: 30rem;
     overflow: hidden;
+    max-height: 32rem;
 }
 
-.carouselCard p {
+/* .carouselCard p {
     font-size: 10px;
-}
+} */
 
-.carouselCard h1 {
+/* .carouselCard h1 {
     font-family: var(--font-montserrat-light);
     font-size: 48px;
-}
+} */
 
 .carouselCardImage{
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
