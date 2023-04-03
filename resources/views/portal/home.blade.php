@@ -29,7 +29,7 @@
               positions in this coming future
             </h1>
             <button type="button pointer" class="standard-button mt-5">
-              Learn More
+              <a href="/about-us">Learn more</a>
             </button>
           </div>
         </div>
@@ -88,7 +88,7 @@
                   in the green sector
                 </h2>
                 <button type="button pointer" class="standard-button mt-5">
-                  Learn More
+                  <a href="/about-us">Learn more</a>
                 </button>
                 <div class="mt-10">
                   <img class="added-image" src="assets/img/portal/Homepage-Photo-car-sun.png" alt="" />
@@ -117,7 +117,7 @@
           </p>
           <div class="d-flex justify-content-center">
             <button type="button pointer" class="secondary-button mt-5">
-              Learn More
+              <a href="/portfolio">Learn more</a>
             </button>
           </div>
         </div>

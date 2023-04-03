@@ -62,7 +62,7 @@
             </div>
             <div class="col md-6 text-grey">
                 <p class="d-flex justify-content-end text-m">
-                    © Copyright 2023 Five Forty | All Rights Reserved
+                    © Copyright 2023 FiveForty | All Rights Reserved
                 </p>
             </div>
         </div>

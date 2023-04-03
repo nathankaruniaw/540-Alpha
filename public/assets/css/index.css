@@ -210,13 +210,6 @@ body {
   z-index: 20;
 }
 
-.header-text {
-  font-size: 48px;
-  line-height: 1.2;
-  font-weight: 500;
-  color: #f3f3f3;
-}
-
 /* Button Component */
 .standard-button {
   background: none;
@@ -242,8 +235,17 @@ body {
   color: white;
 }
 
+.secondary-button a {
+  text-decoration: none;
+  color: #005F41;
+}
+
 .standard-button:hover a {
   color: #212112;
+}
+
+.secondary-button:hover a {
+  color: white;
 }
 
 .secondary-button {
@@ -607,19 +609,27 @@ button:focus {
 }
 
 /* Text Setting */
+
+.header-text {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #f3f3f3;
+}
+
 .header-2xl {
-  font-size: 66px;
+  font-size: 52px;
   font-weight: 500;
   line-height: 1.5;
 }
 
 .text-xl {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
 }
 
 .text-lg {
-  font-size: 41px;
+  font-size: 32px;
   font-weight: 600;
 }
 
@@ -628,12 +638,12 @@ button:focus {
 }
 
 .heading-l {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
 }
 
 .text-m {
-  font-size: 25px;
+  font-size: 22px;
   line-height: 3rem;
 }
 
@@ -766,6 +776,11 @@ p {
   -moz-transform: translateY(60px);
   -ms-transform: translateY(60px);
   -o-transform: translateY(60px);
+}
+
+fieldset input::placeholder {
+  padding-left: 2rem;
+  font-size: 20px;
 }
 
 /* Footer Nav */
