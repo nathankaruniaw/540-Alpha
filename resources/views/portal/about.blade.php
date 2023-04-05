@@ -146,10 +146,11 @@
           <div id="accordion">
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg>
+                </svg> -->
+                <i class="fa-solid fa-plus text-white icon-accordion"></i>
                 <h5 class="mb-0 heading-l font-medium text-white">
                   Operations
                 </h5>
@@ -179,15 +180,16 @@
             </div>
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg>
+                </svg> -->
+                <i class="fa-solid fa-plus text-white icon-accordion"></i>
                 <h5 class="mb-0 heading-l font-medium text-white ">
                   Finance
                 </h5>
               </button>
-              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
                   <ol class="list-accordion">
                     <li class="text-m mb-4">
@@ -208,10 +210,11 @@
             </div>
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg>
+                </svg> -->
+                <i class="fa-solid fa-plus text-white icon-accordion"></i>
                 <h5 class="mb-0 heading-l font-medium text-white ">
                   Investment
                 </h5>
@@ -377,10 +380,24 @@
 
       $('.collapsible-toggle1').click(function() {
         $("#collapse1").toggleClass('show')
+        $(this).find($(".fa-solid")).toggleClass('fa-plus').toggleClass('fa-minus');
       })
 
       $('.collapsible-toggle2').click(function() {
         $("#collapse2").toggleClass('show')
+        $(this).find($(".fa-solid")).toggleClass('fa-plus').toggleClass('fa-minus');
+      })
+
+      $('#headingOne').click(function() {
+        $(this).find($(".fa-solid")).toggleClass('fa-plus').toggleClass('fa-minus');
+      })
+
+      $('#headingTwo').click(function() {
+        $(this).find($(".fa-solid")).toggleClass('fa-plus').toggleClass('fa-minus');
+      })
+
+      $('#headingThree').click(function() {
+        $(this).find($(".fa-solid")).toggleClass('fa-plus').toggleClass('fa-minus');
       })
 
     })
