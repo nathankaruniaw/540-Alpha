@@ -248,7 +248,7 @@ body {
   color: white;
 }
 
-.secondary-button {
+.secondary-button, #buttonLoadMore {
   background: none;
   color: #005F41;
   border: 1px solid #005F41;
@@ -258,7 +258,7 @@ body {
   font-weight: 400;
 }
 
-.secondary-button:hover {
+.secondary-button:hover, #buttonLoadMore:hover {
   background: #005F41;
   color: #f3f3f3;
 }
@@ -768,14 +768,25 @@ p {
   -webkit-filter: brightness(0.7);
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .bottom-corner {
-  bottom: 10px;
-  transform: translateY(60px);
+  border: none;
+  background: none;
+  outline: none;
+  top: 6rem;
   right: 25%;
-  -webkit-transform: translateY(60px);
-  -moz-transform: translateY(60px);
-  -ms-transform: translateY(60px);
-  -o-transform: translateY(60px);
+}
+
+.fa-solid {
+  font-size: 50px;
+  font-weight: 600;
 }
 
 fieldset input::placeholder {

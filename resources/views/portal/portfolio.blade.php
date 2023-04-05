@@ -61,9 +61,8 @@
 
         </div>
         <div class="footer-news">
-          <button class="btn-load" id="buttonLoadMore">
+          <button class="mt-5" id="buttonLoadMore">
             <span>Load More</span>
-            <hr>
           </button>
         </div>
         <hr id="hrButtonLoadMore">

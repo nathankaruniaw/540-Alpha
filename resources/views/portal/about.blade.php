@@ -267,35 +267,41 @@
         </div>
         <div class="col-md-6">
           <div class="content-wrapper position-relative">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus position-absolute bottom-corner text-color-primary">
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg> -->
+            <button class="position-absolute bottom-corner collapsible-toggle1 text-color-primary">
+              <i class="fa-solid fa-plus"></i>
+            </button>
             <h3 class="heading-l approach-small-title line-height-l">
               The moment is right to enter or transition into Green
             </h3>
-            <p class="text-m text-color-primary mt-5 line-height-l">
-              After a long external push from regulations and policies, the
-              market has begun intrinsically transitioning into more demand for
-              sustainable technologies and products
-            </p>
+            <div id="collapse1" class="hide">
+              <p class="text-m text-color-primary mt-5 line-height-l">
+                After a long external push from regulations and policies, the
+                market has begun intrinsically transitioning into more demand for
+                sustainable technologies and products
+              </p>
+            </div>
           </div>
         </div>
 
         <div class="col-md-6">
           <div class="content-wrapper position-relative">
+            <button class="position-absolute bottom-corner collapsible-toggle2 text-color-primary">
+              <i class="fa-solid fa-plus"></i>
+            </button>
             <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
               Southeast Asia is lagging compared to North America, Europe, India, and China, but poised to catchup
             </h3>
-            <p class="text-m text-color-primary mt-5 line-height-l">
-              As one of the major population centres in the world, Southeast Asia needs the same market-centric solutions for more sustainable livelihood and resource-usage
-            </p>
-            <p class="text-m text-color-primary mt-5 line-height-l">
-              The same solutions already successful in NA, Europe, India, and China would be applicable and translatable to the Southeast Asian market - with a local twist
-            </p>
-            <p class="text-m text-color-primary mt-5 line-height-l">
-              These ideas, however, are still lacking strategy, business development, and financial support in the region
-            </p>
+            <div id="collapse2" class="hide">
+              <p class="text-m text-color-primary mt-5 line-height-l">
+                As one of the major population centres in the world, Southeast Asia needs the same market-centric solutions for more sustainable livelihood and resource-usage
+              </p>
+              <p class="text-m text-color-primary mt-5 line-height-l">
+                The same solutions already successful in NA, Europe, India, and China would be applicable and translatable to the Southeast Asian market - with a local twist
+              </p>
+              <p class="text-m text-color-primary mt-5 line-height-l">
+                These ideas, however, are still lacking strategy, business development, and financial support in the region
+              </p>
+            </div>
           </div>
         </div>
         <div class="col-md-8 image-about-us">
@@ -367,6 +373,14 @@
         // Collapse Text
         $(this).find('div.text-collapse').show()
 
+      })
+
+      $('.collapsible-toggle1').click(function() {
+        $("#collapse1").toggleClass('show')
+      })
+
+      $('.collapsible-toggle2').click(function() {
+        $("#collapse2").toggleClass('show')
       })
 
     })
