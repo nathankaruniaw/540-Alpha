@@ -73,14 +73,14 @@
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Steven Sujoto</h4>
                   <p class="mt-3 text-xs line-height-l">
-                  brings more than 12 years of professional experience in digital 
-                  transformation, management consulting and nature-based solutions. 
-                  He is passionate in green technology and is currently taking part 
-                  in an end-to-end circular economy program. Steven has previously 
-                  delivered a successful peat restoration strategy work for the 
-                  Indonesian government and led the company-wide digital adoption in 
-                  one of the world’s largest plantations. He is an engineer by training, 
-                  holding MSc from Delft University of Technology. 
+                    brings more than 12 years of professional experience in digital
+                    transformation, management consulting and nature-based solutions.
+                    He is passionate in green technology and is currently taking part
+                    in an end-to-end circular economy program. Steven has previously
+                    delivered a successful peat restoration strategy work for the
+                    Indonesian government and led the company-wide digital adoption in
+                    one of the world’s largest plantations. He is an engineer by training,
+                    holding MSc from Delft University of Technology.
                   </p>
                   <p class="mt-4 text-xs line-height-l">
                     More than 12 years of professional experience in digital
@@ -174,6 +174,7 @@
       </div>
     </div>
   </section>
+  @include('portal.layouts.pitch')
   @include('portal.layouts.footer')
 
 </body>

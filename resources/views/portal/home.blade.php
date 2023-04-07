@@ -124,6 +124,7 @@
       </div>
     </div>
   </section>
+  @include('portal.layouts.pitch')
   @include('portal.layouts.footer')
 
 </body>

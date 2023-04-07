@@ -18,7 +18,7 @@
   <!-- Hero Section -->
   <section class="hero full-height">
     <div class="image-wrapper">
-      <img class="filter-70" src="assets/img/portal/pexels-photo-247599.jpg" alt="Hero Section" />
+      <img class="filter-70" src="assets/img/portal/pexels-photo-305833.jpg" alt="Hero Section" />
     </div>
     <div class="absolute-start">
       <div class="container-fluid-custom">
@@ -140,6 +140,8 @@
 
     </div>
   </section>
+
+  @include('portal.layouts.pitch')
 
   <!-- Footer -->
   @include('portal.layouts.footer')
