@@ -34,27 +34,20 @@
               <fieldset>
                 <span class="orng-radio-group">
                   <input class="orng-radio" type="radio" name="orng-grouped" data-text="Startup Owner" checked />
-                  <input class="orng-radio" type="radio" name="orng-grouped" data-text="Limited Partner" />
-                  <input class="orng-radio" type="radio" name="orng-grouped" data-text="Media" />
+                  <input class="orng-radio" type="radio" name="orng-grouped" data-text="Investor" />
                 </span>
               </fieldset>
               <fieldset>
-                <input type="text" id="fname" name="fname" placeholder="Full name" />
+                <input type="text" id="fname" name="fname" placeholder="Full name" required />
               </fieldset>
               <fieldset>
-                <input type="email" id="email" name="email" placeholder="Email" />
+                <input type="email" id="email" name="email" placeholder="Email" required/>
               </fieldset>
               <fieldset>
-                <input type="text" id="startup-name" name="startup-name" placeholder="The Startup name" />
+                <input type="text" id="phone" name="phone" placeholder="Phone" required />
               </fieldset>
               <fieldset>
-                <input type="email" id="email" name="email" placeholder="Email" />
-              </fieldset>
-              <fieldset>
-                <input type="text" id="location" name="location" placeholder="Startup Location (Country)" />
-              </fieldset>
-              <fieldset>
-                <input type="text" id="category" name="category" placeholder="Startup Category/Industry" />
+                <input type="text" id="company-name" name="company-name" placeholder="Company name" />
               </fieldset>
               <div class="button-wrapper">
                 <button type="submit" class="secondary-button">Submit</button>

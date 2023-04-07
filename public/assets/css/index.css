@@ -734,6 +734,10 @@ p {
   padding-right: 7rem;
 }
 
+.mh-8 {
+  min-height: 8rem;
+}
+
 /* Image Setting */
 .image-wrapper {
   height: 100%;

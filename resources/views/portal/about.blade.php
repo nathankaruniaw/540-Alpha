@@ -146,10 +146,6 @@
           <div id="accordion">
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
-                  <line x1="12" y1="5" x2="12" y2="19"></line>
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg> -->
                 <i class="fa-solid fa-plus text-white icon-accordion"></i>
                 <h5 class="mb-0 heading-l font-medium text-white">
                   Operations
@@ -180,10 +176,6 @@
             </div>
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
-                  <line x1="12" y1="5" x2="12" y2="19"></line>
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg> -->
                 <i class="fa-solid fa-plus text-white icon-accordion"></i>
                 <h5 class="mb-0 heading-l font-medium text-white ">
                   Finance
@@ -210,10 +202,6 @@
             </div>
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white icon-accordion feather feather-plus">
-                  <line x1="12" y1="5" x2="12" y2="19"></line>
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg> -->
                 <i class="fa-solid fa-plus text-white icon-accordion"></i>
                 <h5 class="mb-0 heading-l font-medium text-white ">
                   Investment
@@ -273,10 +261,12 @@
             <button class="position-absolute bottom-corner collapsible-toggle1 text-color-primary">
               <i class="fa-solid fa-plus"></i>
             </button>
-            <h3 class="heading-l approach-small-title line-height-l">
-              The moment is right to enter or transition into Green
-            </h3>
-            <div id="collapse1" class="hide">
+            <div class="mh-8">
+              <h3 class="heading-l approach-small-title line-height-l">
+                The moment is right to enter or transition into Green
+              </h3>
+            </div>
+            <div id="collapse1" class="hide pr-md-5">
               <p class="text-m text-color-primary mt-5 line-height-l">
                 After a long external push from regulations and policies, the
                 market has begun intrinsically transitioning into more demand for
@@ -291,10 +281,12 @@
             <button class="position-absolute bottom-corner collapsible-toggle2 text-color-primary">
               <i class="fa-solid fa-plus"></i>
             </button>
-            <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
-              Southeast Asia is lagging compared to North America, Europe, India, and China, but poised to catchup
-            </h3>
-            <div id="collapse2" class="hide">
+            <div class="mh-8">
+              <h3 class="heading-l approach-small-title responsive-margin-top line-height-l">
+                Southeast Asia is lagging compared to North America, Europe, India, and China, but poised to catchup
+              </h3>
+            </div>
+            <div id="collapse2" class="hide pr-md-5">
               <p class="text-m text-color-primary mt-5 line-height-l">
                 As one of the major population centres in the world, Southeast Asia needs the same market-centric solutions for more sustainable livelihood and resource-usage
               </p>
@@ -348,6 +340,7 @@
     </div>
   </section>
 
+  @include('portal.layouts.pitch')
   @include('portal.layouts.footer')
 
   <script>
