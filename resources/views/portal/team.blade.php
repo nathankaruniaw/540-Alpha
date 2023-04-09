@@ -160,7 +160,7 @@
             Together, we aim to deliver sustainable returns and create
             positive climate and societal impact.
           </h2>
-          <p class="text-m mt-5 text-center px-7 text-color-primary">
+          <p class="text-m mt-5 text-center px-md-7 text-color-primary">
             As a responsible to create an effective, credible, and efficient
             carbon ecosystem, 540 Alpha invests in and partners with companies
             that share our ambition to achieve a net zero future.

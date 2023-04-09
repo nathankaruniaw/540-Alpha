@@ -350,6 +350,16 @@ a.fromLeft {
     text-decoration: none;
 }
 
+.figure-wrapper {
+    width: 100%;
+    max-height: 9rem;
+    min-height: 9rem;
+}
+.title-wrapper {
+    max-height: 9rem;
+    height: 9rem;
+}
+
 hr {
     border-bottom: 1px solid black;
 }

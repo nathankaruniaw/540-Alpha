@@ -6,7 +6,7 @@
         <h2 class="text-xl text-white">Send a Pitch</h2>
       </div>
       <div class="col-md-6">
-        <p class="text-m pr-13 text-white">
+        <p class="text-m pr-md-13 text-white">
           We are always looking for exceptional founders to join our
           ecosystem. Submit your pitch for review here.
         </p>

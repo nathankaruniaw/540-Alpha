@@ -119,12 +119,14 @@
             @foreach ($portfolio_ids as $portfolio_id)
             <div class="carouselCard">
 
-              <figure class="mb-5 d-flex justify-content-center align-items-center">
+              <figure class="mb-md-5 mb-xs-2 d-flex justify-content-center align-items-center figure-wrapper">
                 <img src="{{ url('/images/portfolio/'.$portfolio_id->photo) }}" alt="Silica" class="carouselCardImage">
               </figure>
 
               <p class="text-color-primary text-xs">Product :</p>
-              <H1 class="text-color-primary font-semibold text-m mb-6">{{$portfolio_id->name}}</H1>
+              <div class="title-wrapper">
+                <H1 class="text-color-primary font-semibold text-m">{{$portfolio_id->name}}</H1>
+              </div>
               <p class="text-color-primary">Stage : Seed</p>
 
 
