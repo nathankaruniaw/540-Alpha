@@ -229,6 +229,10 @@ body {
   width: 100%;
 }
 
+.mt-md-10 {
+  margin-top: 5rem !important;
+}
+
 .standard-button a {
   text-decoration: none;
   color: white;
@@ -409,6 +413,26 @@ footer {
   background-color: #005F41;
   padding-top: 8rem;
   padding-bottom: 3rem;
+}
+
+.footer-image-brand img {
+  width: 50%;
+}
+
+div#teamContent-3 {
+  order: 2;
+}
+
+div#teamPhoto-3 {
+  order: 1;
+}
+
+div#teamContent-4 {
+  order: 2;
+}
+
+div#teamPhoto-4 {
+  order: 1;
 }
 
 /* Horizontal Accordion */
@@ -1185,7 +1209,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   } */
 
   .start-header.scroll-on .navbar-nav,
-  .start-header.scroll-on .collapse.show{
+  .start-header.scroll-on .collapse.show {
     background: none;
   }
 
@@ -1315,6 +1339,21 @@ body.dark .logo img {
     font-size: 18px;
     font-weight: 300;
     line-height: 3rem;
+  }
+
+  .line-height-md {
+    line-height: 1.75rem;
+  }
+
+  .mb-xs-2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .ellipsis-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   /* Container */
@@ -1493,5 +1532,36 @@ body.dark .logo img {
   .title-wrapper {
     height: 5rem !important;
     max-height: 5rem !important;
+  }
+
+  .mt-md-10 {
+    margin-top: 2rem;
+  }
+
+  .footer-image-brand img {
+    width: 60%;
+  }
+
+  div#teamContent-3 {
+    order: 2;
+  }
+
+  div#teamPhoto-3 {
+    order: 1;
+  }
+
+  div#teamContent-4 {
+    order: 2;
+  }
+
+  div#teamPhoto-4 {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav-item {
+    display: flex;
+    justify-content: center;
   }
 }

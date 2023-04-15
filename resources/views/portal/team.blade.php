@@ -95,7 +95,7 @@
         <div class="col-md-6 mt-4">
           <div class="team-3">
             <div class="row">
-              <div class="col-md-6 p-0">
+              <div class="col-md-6 p-0" id="teamContent-3">
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Julianto Johanes</h4>
                   <p class="mt-3 text-xs line-height-l">
@@ -114,7 +114,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 p-0">
+              <div class="col-md-6 p-0" id="teamPhoto-3">
                 <img class="w-100" src="assets/img/portal/Julianto-Johanes.png" alt="" />
               </div>
             </div>
@@ -123,7 +123,7 @@
         <div class="col-md-6 mt-4">
           <div class="team-4">
             <div class="row">
-              <div class="col-md-6 p-0">
+              <div class="col-md-6 p-0" id="teamContent-4">
                 <div class="team-content p-5">
                   <h4 class="text-lg font-medium">Reinard Gunadjaja</h4>
                   <p class="mt-3 text-xs line-height-l">
@@ -141,7 +141,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 p-0">
+              <div class="col-md-6 p-0" id="teamPhoto-4">
                 <img class="w-100" src="assets/img/portal/Reinard-Gunadjaja.png" alt="" />
               </div>
             </div>

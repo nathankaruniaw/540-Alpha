@@ -123,11 +123,11 @@
                 <img src="{{ url('/images/portfolio/'.$portfolio_id->photo) }}" alt="Silica" class="carouselCardImage">
               </figure>
 
-              <p class="text-color-primary text-xs">Product :</p>
-              <div class="title-wrapper">
-                <H1 class="text-color-primary font-semibold text-m">{{$portfolio_id->name}}</H1>
+              <p class="text-color-primary text-xs line-height-md">Product :</p>
+              <div class="title-wrapper mb-xs-2">
+                <H1 class="text-color-primary font-semibold text-m line-height-md ellipsis-3">{{$portfolio_id->name}}</H1>
               </div>
-              <p class="text-color-primary">Stage : Seed</p>
+              <p class="text-color-primary line-height-md">Stage : Seed</p>
 
 
             </div>
