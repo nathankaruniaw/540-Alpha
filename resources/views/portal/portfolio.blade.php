@@ -98,15 +98,15 @@
 
         <div class="row buttonContainer d-flex justify-content-end">
           <button type="button" class="buttonCarousel prev-carousel buttonHover">
-            <svg class="imageButton">
-              <img src="/assets/arrowLeft.png" alt="" class="arrowButton">
-            </svg>
+            <img src="/assets/arrowLeft.png" alt="" class="arrowButton">
+            <!-- <svg class="imageButton">
+            </svg> -->
           </button>
 
           <button type="button" class="buttonCarousel next-carousel buttonHover">
-            <svg class="imageButton">
-              <img src="/assets/bigarrowRight.png" alt="" class="arrowButton">
-            </svg>
+            <img src="/assets/bigarrowRight.png" alt="" class="arrowButton">
+            <!-- <svg class="imageButton">
+            </svg> -->
 
           </button>
 
@@ -206,7 +206,7 @@
         responsive: [{
           breakpoint: 600,
           settings: {
-            arrows: false,
+            arrows: true,
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
