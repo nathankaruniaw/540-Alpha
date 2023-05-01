@@ -71,10 +71,11 @@ body {
 }
 
 .container-fluid-custom {
-  width: 100%;
+  width: 100vw;
   padding: 0 10em;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
 }
 
 .navbar-brand img {
@@ -1280,6 +1281,24 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 body.dark .logo img {
   filter: brightness(100%);
+}
+
+.orng-radio-2{
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 2.8em;
+}
+
+.orng-radio-2-focus{
+  color: white;
+  background: #005F41;
+}
+
+.orng-radio-2-unfocus{
+  background: white;
+  color: #005F41;
 }
 
 /* Responsive */
