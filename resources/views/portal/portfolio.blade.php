@@ -56,6 +56,39 @@
 
       <div class="row">
 
+        <div class="row buttonContainer d-flex justify-content-end">
+          <button type="button" class="buttonCarousel prev-carousel-client buttonHover">
+            <img src="/assets/arrowLeft.png" alt="" class="arrowButton">
+          </button>
+
+          <button type="button" class="buttonCarousel next-carousel-client buttonHover">
+            <img src="/assets/bigarrowRight.png" alt="" class="arrowButton">
+
+          </button>
+
+        </div>
+        <div class="row" style="overflow:hidden;width:100%;">
+
+          <div class="carouselWrapperClient slider">
+            @foreach ($client_ids as $client_id)
+            <div class="carouselCardClient">
+
+              <figure class="mb-md-5 mb-xs-2 d-flex justify-content-center align-items-center figure-wrapper">
+                <img src="{{ url('/images/client/'.$client_id->photo) }}" alt="Client Picture" class="carouselCardImage">
+              </figure>
+
+            </div>
+            @endforeach
+          </div>
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <!-- <div class="row">
+
         <div id="advisoryClientGroups" class="container-fluid">
 
         </div>
@@ -66,7 +99,7 @@
         </div>
         <hr id="hrButtonLoadMore">
 
-      </div>
+      </div> -->
 
     </div>
   </section>
@@ -212,27 +245,47 @@
         }]
       })
 
-      $('.next-carousel').click(function() {
-        var counter = $('.paginationCounter').html();
-        counter = parseInt(counter);
-        if (counter + 1 == 7) {
-          counter = 1;
-        } else {
-          counter += 1;
-        }
-        $('.paginationCounter').html(counter);
+      $('.carouselWrapperClient').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        infinite: true,
+        autoplay: false,
+        autoplaySpeed: 800,
+        prevArrow: $('.prev-carousel-client'),
+        nextArrow: $('.next-carousel-client'),
+        responsive: [{
+          breakpoint: 600,
+          settings: {
+            arrows: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        }]
       })
 
-      $('.prev-carousel').click(function() {
-        var counter = $('.paginationCounter').html();
-        counter = parseInt(counter);
-        if (counter - 1 == 0) {
-          counter = 6;
-        } else {
-          counter -= 1;
-        }
-        $('.paginationCounter').html(counter);
-      })
+      // $('.next-carousel').click(function() {
+      //   var counter = $('.paginationCounter').html();
+      //   counter = parseInt(counter);
+      //   if (counter + 1 == 7) {
+      //     counter = 1;
+      //   } else {
+      //     counter += 1;
+      //   }
+      //   $('.paginationCounter').html(counter);
+      // })
+
+      // $('.prev-carousel').click(function() {
+      //   var counter = $('.paginationCounter').html();
+      //   counter = parseInt(counter);
+      //   if (counter - 1 == 0) {
+      //     counter = 6;
+      //   } else {
+      //     counter -= 1;
+      //   }
+      //   $('.paginationCounter').html(counter);
+      // })
 
       AOS.init({
         duration: 1200,

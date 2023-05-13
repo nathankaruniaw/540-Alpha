@@ -453,6 +453,9 @@ p {
 .carouselWrapper{
     width: 100%;
 }
+.carouselWrapperClient{
+    width: 100%;
+}
 
 .buttonHover{
     background: linear-gradient(to bottom, black 50%, white 50%);
@@ -546,6 +549,12 @@ p {
     .carouselCard{
         width: 30%;
         height: 300px;
+        padding: 10px;
+    }
+
+    .carouselCardClient{
+        width: 30%;
+        height: 150px;
         padding: 10px;
     }
 

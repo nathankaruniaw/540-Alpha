@@ -23,10 +23,13 @@ class DashboardController extends Controller
 
     public function portfolio(){
 
+        $client_ids = DB::table('client')
+            ->get();
+
         $portfolio_ids = DB::table('portfolio')
             ->get();
 
-        return view('portal/portfolio', compact('portfolio_ids'));
+        return view('portal/portfolio', compact('portfolio_ids', 'client_ids'));
     }
 
     public function team(){
