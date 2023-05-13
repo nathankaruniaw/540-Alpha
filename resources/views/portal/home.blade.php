@@ -103,23 +103,13 @@
 
   <!-- Ambition Section -->
   <section class="ambition-section">
-    <div class="container-fluid-custom">
+    <div class="container">
       <div class="row">
         <div class="col-12">
           <h2 class="text-xl text-color-primary text-center">
             Together, we aim to deliver sustainable returns and create
             positive climate and societal impact.
           </h2>
-          <p class="text-m mt-5 text-center px-7 text-color-primary description">
-            As a responsible to create an effective, credible, and efficient
-            carbon ecosystem, 540 Alpha invests in and partners with companies
-            that share our ambition to achieve a net zero future.
-          </p>
-          <div class="d-flex justify-content-center">
-            <button type="button pointer" class="secondary-button mt-5">
-              <a href="/portfolio">Learn more</a>
-            </button>
-          </div>
         </div>
       </div>
     </div>

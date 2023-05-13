@@ -46,9 +46,8 @@
 
         <div class="col-md-6">
           <p class="text-m text-color-primary">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim ad minim veniam,
+            We have actively engaged several green pioneers in their strategy, business development and fund-raising. Here are
+            several of our clients:
           </p>
         </div>
       </div>
@@ -85,9 +84,8 @@
 
         <div class="col-md-6">
           <p class="text-m text-color-primary">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-            erat volutpat. Ut wisi enim ad minim veniam,
+            We have also successfully raised and invested more than half a
+            million dollars into early stage companies through SPVs:
           </p>
         </div>
       </div>
@@ -162,7 +160,7 @@
             var list = $('#advisoryClientGroups');
             list.empty();
             for (var i = 0; i < data[0].length; i++) {
-              list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-md-4"><figure><img src="/images/client/' + data[0][i].photo + '" alt="News Photo" style="width:100%;height: auto;"></figure></div><div class="col-md-4 text-center d-flex align-items-center"><p class="w-100 text-color-primary text-xs">Engagement Type</p></div><div class="col-md-4 text-center d-flex align-items-center"><p class="heading-l text-color-primary w-100">' + data[0][i].name + '</p></div></div><hr></div></div>');
+              list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-md-4"><figure><img src="/images/client/' + data[0][i].photo + '" alt="News Photo" style="width:100%;height: auto;"></figure></div><div class="col-md-8 text-center d-flex align-items-center"><p class="heading-l text-color-primary w-100">' + data[0][i].name + '</p></div></div><hr></div></div>');
               // list.append('<div class="news--item"><div class="container-fluid"><div class="row"><div class="col-4"><figure><img src="/images/client/'+ data[0][i].photo +'" alt="News Photo"></figure></div><div class="col-4 text-center"><p>Engagement Type</p></div><div class="col-4 text-center"><p>'+ data[0][i].name +'</p></div></div><hr></div></div>');
             }
 

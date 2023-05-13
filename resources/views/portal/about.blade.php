@@ -49,10 +49,9 @@
           <div class="container-slides">
             <ul class="slides">
               <li class="slide active brand1">
-                <a href="#" class="action"><span class="accordion-number">1.</span>
+                <a href="#" class="action">
                   <span class="accordion-title">Sustainable Food and Materials</span></a>
                 <div class="slide-content">
-                  <h1>1.</h1>
                   <h2>Sustainable Food and Materials</h2>
                   <p>
                     How to efficiently use <br>
@@ -64,23 +63,21 @@
                 </div>
               </li>
               <li class="slide brand2">
-                <a href="#" class="action"><span class="accordion-number">2.</span>
+                <a href="#" class="action">
                   <span class="accordion-title">Clean Logistics and Transportation</span></a>
                 <div class="slide-content">
-                  <h1>2.</h1>
                   <h2>Clean Logistics and Transportation</h2>
                   <p>
                     How to cleanly and effectively transport goods and
-                    services to consumers.
+                    services to consumers
                   </p>
                 </div>
               </li>
               <li class="slide brand3">
-                <a href="#" class="action"><span class="accordion-number">3.</span>
+                <a href="#" class="action">
                   <span class="accordion-title">Climate Intelligence and Enabling Technologies</span></a>
                 <div class="slide-content">
-                  <h1>3.</h1>
-                  <h2>Climate Intelligence and Enabling Technologies</h2>
+                  <h2>Climate Intelligence and Enabling Technology</h2>
                   <p>
                     How to ensure solutions and <br>
                     impact are correctly <br>
@@ -90,10 +87,9 @@
                 </div>
               </li>
               <li class="slide brand4">
-                <a href="#" class="action"><span class="accordion-number">4.</span>
+                <a href="#" class="action">
                   <span class="accordion-title">Climate Restoration</span></a>
                 <div class="slide-content">
-                  <h1>4.</h1>
                   <h2>Climate Restoration</h2>
                   <p>
                     How to help achieving <br>
@@ -119,15 +115,16 @@
         </div>
         <div class="col-md-6">
           <h2 class="text-lg line-height-l font-medium pr-5">
-            540 Alpha offers our combined business and technical expertise
-            plus our insight and network in the green sector
+            540 Alpha presents 20+ years of
+            combined business and technical expertise, as well as insights and
+            network in the green sector
           </h2>
         </div>
         <div class="col-md-6 strategy">
           <p class="font-medium heading-l">Strategy</p>
           <p class="text-m">
-            We help you find your green vision, <br> starting from Business Thesis, <br>
-            Management, Market, and Growth
+            We help you find your green vision, <br> starting from business thesis, <br>
+            management, market, and growth
           </p>
         </div>
         <div class="image-wrapper-small mt-5">
@@ -138,11 +135,12 @@
         </div>
         <div class="col-md-6 implementation-description">
           <p class="text-m">
-            We translate strategies into real actions in your organisations,
-            answering these questions:
+            We translate strategies into real actions
+            in your organisations, answering critical questions in operations,
+            finances, and investments
           </p>
         </div>
-        <div class="col-md-12 mt-5">
+        <!-- <div class="col-md-12 mt-5">
           <div id="accordion">
             <div class="card">
               <button class="card-header d-flex justify-content-between align-items-center background-none border-none collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -230,7 +228,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -239,7 +237,7 @@
   <section class="approach-section">
     <div class="container-fluid-custom">
       <div class="row">
-        <div class="col-12 mb-4">
+        <!-- <div class="col-12 mb-4">
           <p class="text-m text-color-primary">Our Approach</p>
         </div>
         <div class="col-12">
@@ -255,7 +253,7 @@
             adaptation solutions are some of the next multi-billion dollar
             growths. We believe that:
           </p>
-        </div>
+        </div> -->
         <div class="col-md-6">
           <div class="content-wrapper position-relative">
             <button class="position-absolute bottom-corner collapsible-toggle1 text-color-primary">
@@ -299,14 +297,14 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 image-about-us">
-          <img src="assets/img/portal/About-Us.png" alt="" />
-        </div>
         <div class="col-xs-12 col-md-4 value-proposition-title d-flex align-items-end pb-4">
           <h2 class="text-lg line-height-l font-medium pr-5 text-color-primary">
             Our Value <br />
             Proposition
           </h2>
+        </div>
+        <div class="col-md-8 image-about-us">
+          <img src="assets/img/portal/About-Us.png" alt="" />
         </div>
         <div class="col-md-6 value-wrapper">
           <img src="assets/img/portal/Value-Proposition-1.png" alt="" />
@@ -318,8 +316,8 @@
         <div class="col-md-6 value-wrapper">
           <img src="assets/img/portal/Value-Proposition-2.png" alt="" />
           <p class="value-description text-m">
-            Access to incubation graduates, <br> emerging climate solutions
-            founders, <br> and a network of like-minded investors
+            Access to emerging climate solutions and <br> a network of like-minded
+            investors
           </p>
         </div>
         <div class="col-md-6 value-wrapper">
