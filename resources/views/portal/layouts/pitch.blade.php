@@ -2,13 +2,12 @@
 <section class="pitch-section">
   <div class="container-fluid-custom">
     <div class="row">
-      <div class="col-md-6">
-        <h2 class="text-xl text-white">Send a Pitch</h2>
-      </div>
-      <div class="col-md-6">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-center">
           <button type="button pointer" class="standard-button">
             <a href="/contact-us">Contact Us</a>
           </button>
+        </div>
       </div>
     </div>
   </div>

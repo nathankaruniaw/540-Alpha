@@ -75,7 +75,7 @@
               </li>
               <li class="slide brand3">
                 <a href="#" class="action">
-                  <span class="accordion-title">Climate Intelligence and Enabling Technologies</span></a>
+                  <span class="accordion-title">Climate Intelligence and Enabling Technology</span></a>
                 <div class="slide-content">
                   <h2>Climate Intelligence and Enabling Technology</h2>
                   <p>
@@ -254,7 +254,7 @@
             growths. We believe that:
           </p>
         </div> -->
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="content-wrapper position-relative">
             <button class="position-absolute bottom-corner collapsible-toggle1 text-color-primary">
               <i class="fa-solid fa-plus"></i>
@@ -272,9 +272,9 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="content-wrapper position-relative">
             <button class="position-absolute bottom-corner collapsible-toggle2 text-color-primary">
               <i class="fa-solid fa-plus"></i>
@@ -296,7 +296,8 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
+        
         <div class="col-xs-12 col-md-4 value-proposition-title d-flex align-items-end pb-4">
           <h2 class="text-lg line-height-l font-medium pr-5 text-color-primary">
             Our Value <br />
