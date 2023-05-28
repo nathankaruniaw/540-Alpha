@@ -18,7 +18,7 @@ class DashboardController extends Controller
         $portfolio_ids = DB::table('portfolio')
             ->get();
 
-        return view('portal/home', compact('portfolio_ids'));
+        return view('portal/about', compact('portfolio_ids'));
     }
 
     public function portfolio(){

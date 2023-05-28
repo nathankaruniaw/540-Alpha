@@ -17,9 +17,9 @@
                             <li class="nav-item pl-md-4 pl-md-0 ml-0 ml-md-5 start-style">
                                 <a class="nav-link" href="/team">team</a>
                             </li>
-                            <li class="nav-item pl-md-4 pl-md-0 ml-0 ml-md-5 start-style">
+                            <!-- <li class="nav-item pl-md-4 pl-md-0 ml-0 ml-md-5 start-style">
                                 <a class="nav-link" href="/portfolio">portfolio</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item pl-md-4 pl-md-0 ml-0 ml-md-5 start-style">
                                 <a class="nav-link" href="/contact-us">contact us</a>
                             </li>

@@ -43,9 +43,9 @@
                     <li class="mr-5">
                         <a class="text-m footer-nav text-light-green" href="/team">team</a>
                     </li>
-                    <li class="mr-5">
+                    <!-- <li class="mr-5">
                         <a class="text-m footer-nav text-light-green" href="/portfolio">portfolio</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="col-xs-12 col-md-6 text-grey">

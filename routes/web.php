@@ -19,7 +19,7 @@ Auth::routes();
 
 // Non Admin
 Route::get('/','DashboardController@dashboard');
-Route::get('/portfolio','DashboardController@portfolio');
+// Route::get('/portfolio','DashboardController@portfolio');
 Route::get('/team','DashboardController@team');
 Route::get('/about-us','DashboardController@about');
 Route::get('/contact-us','DashboardController@contact');
