@@ -33,11 +33,13 @@
   <section class="team-list">
     <div class="container-fluid p-0">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12 col-xl-6">
           <div class="team-1">
             <div class="row">
               <div class="col-md-6 p-0">
-                <img class="w-100" src="assets/img/portal/Eka.png" alt="" />
+                <figure class="fig-image">
+                  <img src="assets/img/portal/Eka.png" alt="" />
+                </figure>
               </div>
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
@@ -56,11 +58,13 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12 col-xl-6">
           <div class="team-2">
             <div class="row">
               <div class="col-md-6 p-0">
-                <img class="w-100" src="assets/img/portal/Steven.png" alt="" />
+                <figure class="fig-image">
+                  <img src="assets/img/portal/Steven.png" alt="" />
+                </figure>
               </div>
               <div class="col-md-6 p-0">
                 <div class="team-content p-5">
@@ -76,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mt-4">
+        <div class="col-md-12 col-xl-6 mt-4">
           <div class="team-3">
             <div class="row">
               <div class="col-md-6 p-0" id="teamContent-3">
@@ -91,12 +95,14 @@
                 </div>
               </div>
               <div class="col-md-6 p-0" id="teamPhoto-3">
-                <img class="w-100" src="assets/img/portal/Julianto.png" alt="" />
+                <figure class="fig-image">
+                  <img src="assets/img/portal/Julianto.png" alt="" />
+                </figure>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 mt-4">
+        <div class="col-md-12 col-xl-6 mt-4">
           <div class="team-4">
             <div class="row">
               <div class="col-md-6 p-0" id="teamContent-4">
@@ -111,7 +117,9 @@
                 </div>
               </div>
               <div class="col-md-6 p-0" id="teamPhoto-4">
-                <img class="w-100" src="assets/img/portal/Reinard-Indratama.png" alt="" />
+                <figure class="fig-image">
+                  <img src="assets/img/portal/Reinard-Indratama.png" alt="" />
+                </figure>
               </div>
             </div>
           </div>

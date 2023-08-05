@@ -54,9 +54,9 @@
                 <div class="slide-content">
                   <h2>Sustainable Food and Materials</h2>
                   <p>
-                    How to efficiently use <br>
-                    diminishing resources and <br>
-                    come up with alternative or <br>
+                    How to efficiently use 
+                    diminishing resources and 
+                    come up with alternative or 
                     synthetic sources
                   </p>
                   <p></p>
@@ -79,9 +79,9 @@
                 <div class="slide-content">
                   <h2>Climate Intelligence and Enabling Technology</h2>
                   <p>
-                    How to ensure solutions and <br>
-                    impact are correctly <br>
-                    quantified. How to ease the <br>
+                    How to ensure solutions and 
+                    impact are correctly 
+                    quantified. How to ease the 
                     transitional processes
                   </p>
                 </div>
@@ -92,9 +92,9 @@
                 <div class="slide-content">
                   <h2>Climate Restoration</h2>
                   <p>
-                    How to help achieving <br>
-                    temperature limits by <br>
-                    reducing emissions and <br>
+                    How to help achieving 
+                    temperature limits by 
+                    reducing emissions and 
                     sequestering carbon
                   </p>
                 </div>
@@ -115,7 +115,7 @@
         </div>
         <div class="col-md-6">
           <h2 class="text-lg line-height-l font-medium pr-5">
-            540 Alpha presents 20+ years of
+            540 Alpha presents 50+ years of
             combined business and technical expertise, as well as insights and
             network in the green sector
           </h2>

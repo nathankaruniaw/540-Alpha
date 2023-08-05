@@ -393,20 +393,20 @@ fieldset {
 .team-1 .team-content {
   background-color: #5688FF;
   color: #fff;
-  height: 100%;
+  height: 37.4rem;
 }
 
 .team-2 .team-content,
 .team-3 .team-content {
   background-color: #D1F49C;
   color: #005F41;
-  height: 100%;
+  height: 37.4rem;
 }
 
 .team-4 .team-content {
   background-color: #035D43;
   color: #fff;
-  height: 100%;
+  height: 37.4rem;
 }
 
 
@@ -536,7 +536,7 @@ div#teamPhoto-4 {
   position: absolute;
   top: 35%;
   width: 300px;
-  left: -57%;
+  left: -3rem;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -1187,6 +1187,33 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* #Media
 ================================================== */
 
+@media (max-width: 768px) {
+  .slide {
+    width: 20%;
+    overflow: hidden;
+  }
+
+  .active {
+    width: 80%;
+  }
+
+  .active a.action {
+    display: none;
+  }
+
+  .slide a.action .accordion-title {
+    left: -6.5rem !important;
+  }
+
+  .slide-content {
+    padding: 50px;
+  }
+
+  .slide-content h2 {
+    font-size: 48px;
+  }
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 38px;
@@ -1195,19 +1222,6 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .nav-item:after {
     display: none;
   }
-
-  /* .nav-item::before {
-    position: absolute;
-    display: block;
-    top: 15px;
-    left: 0;
-    width: 11px;
-    height: 1px;
-    content: "";
-    border: none;
-    background-color: #000;
-    vertical-align: 0;
-  } */
 
   .start-header.scroll-on .navbar-nav,
   .start-header.scroll-on .collapse.show {
@@ -1283,7 +1297,7 @@ body.dark .logo img {
   filter: brightness(100%);
 }
 
-.orng-radio-2{
+.orng-radio-2 {
   appearance: none;
   display: inline-block;
   position: relative;
@@ -1291,21 +1305,54 @@ body.dark .logo img {
   height: 2.8em;
 }
 
-.orng-radio-2-focus{
+.orng-radio-2-focus {
   color: white;
   background: #005F41;
 }
 
-.orng-radio-2-unfocus{
+.bg-blue {
+  background-color: #5688FF;
+}
+
+.fig-image {
+  width: 100%;
+  overflow: hidden;
+  height: 37.4rem;
+  margin: 0;
+}
+
+.fig-image img {
+  width: 46.4rem;
+  object-fit: cover;
+  object-position: -5rem center;
+}
+
+.orng-radio-2-unfocus {
   background: white;
   color: #005F41;
 }
 
 /* Responsive */
 
+@media screen and (max-width: 1440px) {
+  .fig-image img {
+    width: 46.4rem;
+    object-position: -10rem center;
+  }
+
+  .slide a.action .accordion-title {
+    left: -6rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .container-fluid-custom {
     padding: 0 3em;
+  }
+
+  .fig-image img {
+    width: 46.4rem;
+    object-position: -9rem center;
   }
 
   .slide a.action .accordion-title {
@@ -1330,9 +1377,13 @@ body.dark .logo img {
     line-height: 1.2;
   }
 
+  .slide-content {
+    padding: 30px;
+  }
+
   .text-xl,
   .slide-content h2 {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 600;
   }
 
@@ -1371,7 +1422,7 @@ body.dark .logo img {
   .slide .slide-content p {
     font-size: 18px;
     font-weight: 300;
-    line-height: 3rem;
+    line-height: 2em;
   }
 
   .line-height-md {
@@ -1476,6 +1527,10 @@ body.dark .logo img {
   /* horizontal accordion */
 
   .slide a.action .accordion-number {
+    display: none;
+  }
+
+  .slide a.action {
     display: none;
   }
 
@@ -1596,5 +1651,13 @@ body.dark .logo img {
   .nav-item {
     display: flex;
     justify-content: center;
+  }
+
+  .fig-image img {
+    object-position: -10rem center;
+  }
+
+  .standard-button {
+    padding: 14px 50px;
   }
 }

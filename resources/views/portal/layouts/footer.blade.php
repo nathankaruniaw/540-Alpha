@@ -2,17 +2,17 @@
 <footer class="pt-md-8 pb-md-5 py-5">
     <div class="container-fluid-custom">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="footer-image-brand">
                     <img src="assets/img/portal/White-Logo-Full.png" alt="" />
                 </div>
             </div>
-            <div class="col-md-4 mt-md-10 mb-md-5 my-5">
+            <div class="col-md-6 mt-md-10 mb-md-5 my-5">
                 <div class="row">
                     <div class="col-md-12">
                         <div>
                             <h4 class="heading-l text-white">Contact Us</h4>
-                            <p class="text-white mt-md-3 mt-3 mb-0">
+                            <p class="text-white mt-md-3 mt-3 mb-0 text-m">
                                 <a class="text-white" href="mailto:info@fivefortyalpha.com">info@fivefortyalpha.com</a>
                             </p>
                         </div>
@@ -49,7 +49,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-md-6 text-grey">
-                <p class="d-flex justify-content-end text-m">
+                <p class="text-s">
                     © Copyright 2023 FiveForty Alpha | All Rights Reserved
                 </p>
             </div>
