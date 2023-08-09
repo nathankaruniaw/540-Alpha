@@ -1334,6 +1334,18 @@ body.dark .logo img {
 
 /* Responsive */
 
+
+@media screen and (max-width: 1920px) {
+  .fig-image img {
+    width: 46.4rem;
+    object-position: -10rem center;
+  }
+
+  .slide a.action .accordion-title {
+    left: -6rem;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .fig-image img {
     width: 46.4rem;
