@@ -1338,7 +1338,7 @@ body.dark .logo img {
 @media screen and (max-width: 1920px) {
   .fig-image img {
     width: 46.4rem;
-    object-position: -10rem center;
+    object-position: -13.5rem center;
   }
 
   .slide a.action .accordion-title {
